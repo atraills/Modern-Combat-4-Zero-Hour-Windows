@@ -58,3 +58,6 @@ so contributors are welcome! Encouraged actually!
 You will need the four .dat files as they were too large to upload, find them in the XAP:
 https://www.mediafire.com/file/n3e6k1l3ri3632i/Modern_Combat_4_Para_512.xap/file
 
+Visual Studio 2012 for WinRT access to the .dlls!
+
+
