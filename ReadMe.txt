@@ -55,4 +55,6 @@ new LaunchGLLiveHandler(this.LaunchGLLive));
 
 I definitely need some help if for this to be done in a timely manner, and my novice experience with C++ is a bottleneck,
 so contributors are welcome! Encouraged actually!
+You will need the four .dat files as they were too large to upload, find them in the XAP:
+https://www.mediafire.com/file/n3e6k1l3ri3632i/Modern_Combat_4_Para_512.xap/file
 
