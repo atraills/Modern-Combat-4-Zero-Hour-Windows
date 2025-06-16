@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4CDA1720-C53F-487A-A00C-706A9AF23B14}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MC4</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfAtl>Static</UseOfAtl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfAtl>Static</UseOfAtl>
+    <CLRSupport>false</CLRSupport>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>c:\Program Files (x86)\Windows Kits\8.0\Include\WinRT\wrl\wrappers\;C:\Program Files %28x86%29\Microsoft SDKs\Windows Phone\v8.0\Tools\MDILXAPCompile\Framework;C:\Program Files %28x86%29\Microsoft SDKs\Windows Phone\v8.0\Symbols\X86;C:\Program Files (x86)\Windows Kits\8.0\Include\WinRT;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Lib\win8\um\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>DirectXTK.lib;runtimeobject.lib;rometadata.lib;d3d11.lib;dxgi.lib;d3dcompiler.lib;dxguid.lib;XInput.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86;C:\Users\Atraills\Documents\Visual Studio 2012\Projects\DirectXTK-dec2012\Release</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG=0x0601;_WINDOWS=0x0601;_UNICODE=0x0601;UNICODE=0x0601;_WIN32_WINNT=0x0601;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\HavokContentTools_2012-2-0_20130305_32Bit_PcXs\HavokContentTools\tools\shaderlib;C:\Users\Atraills\Documents\Visual Studio 2012\Projects\gfx-master\src;C:\Users\Atraills\Documents\Visual Studio 2012\Projects\DirectXTK-dec2012\Inc;C:\Users\Atraills\Documents\Visual Studio 2012\Projects\DirectXMath-mar2012\Inc;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\um</AdditionalIncludeDirectories>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>DirectXTK.lib;runtimeobject.lib;rometadata.lib;d3d11.lib;dxgi.lib;d3dcompiler.lib;dxguid.lib;XInput.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86;C:\Users\Atraills\Documents\Visual Studio 2012\Projects\DirectXTK-dec2012\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <FxCompile />
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="about.h" />
+    <ClInclude Include="MC4.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="about.cpp" />
+    <ClCompile Include="MC4.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MC4.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="GLLogo.jpg" />
+    <Image Include="MC4.ico" />
+    <Image Include="Resources\close_but.png" />
+    <Image Include="Resources\igp_exit.png" />
+    <Image Include="Resources\WindowsConnectionFailed.png" />
+    <Image Include="Resources\WindowsLoading.png" />
+    <Image Include="Resources\window_br.png" />
+    <Image Include="Resources\window_cn.png" />
+    <Image Include="Resources\window_de.png" />
+    <Image Include="Resources\window_en.png" />
+    <Image Include="Resources\window_fr.png" />
+    <Image Include="Resources\window_it.png" />
+    <Image Include="Resources\window_jp.png" />
+    <Image Include="Resources\window_kr.png" />
+    <Image Include="Resources\window_portrait_br.png" />
+    <Image Include="Resources\window_portrait_cn.png" />
+    <Image Include="Resources\window_portrait_de.png" />
+    <Image Include="Resources\window_portrait_en.png" />
+    <Image Include="Resources\window_portrait_fr.png" />
+    <Image Include="Resources\window_portrait_it.png" />
+    <Image Include="Resources\window_portrait_jp.png" />
+    <Image Include="Resources\window_portrait_kr.png" />
+    <Image Include="Resources\window_portrait_ru.png" />
+    <Image Include="Resources\window_portrait_sp.png" />
+    <Image Include="Resources\window_ru.png" />
+    <Image Include="Resources\window_sp.png" />
+    <Image Include="small.ico" />
+    <Image Include="SplashScreenImage.jpg" />
+    <Image Include="XBLAvatar_0.png" />
+    <Image Include="XBLAvatar_1.png" />
+    <Image Include="XBLAvatar_10.png" />
+    <Image Include="XBLAvatar_11.png" />
+    <Image Include="XBLAvatar_12.png" />
+    <Image Include="XBLAvatar_13.png" />
+    <Image Include="XBLAvatar_2.png" />
+    <Image Include="XBLAvatar_3.png" />
+    <Image Include="XBLAvatar_4.png" />
+    <Image Include="XBLAvatar_5.png" />
+    <Image Include="XBLAvatar_6.png" />
+    <Image Include="XBLAvatar_7.png" />
+    <Image Include="XBLAvatar_8.png" />
+    <Image Include="XBLAvatar_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="data\1025578258.sobfs" />
+    <None Include="data\1033965491.sobfs" />
+    <None Include="data\1053758619.sobfs" />
+    <None Include="data\1054086300.sobfs" />
+    <None Include="data\1054413981.sobfs" />
+    <None Include="data\1054741662.sobfs" />
+    <None Include="data\1055069343.sobfs" />
+    <None Include="data\1055397024.sobfs" />
+    <None Include="data\1055724705.sobfs" />
+    <None Include="data\1056052386.sobfs" />
+    <None Include="data\107023723.sobfs" />
+    <None Include="data\1071714003.sobfs" />
+    <None Include="data\1074597591.sobfs" />
+    <None Include="data\1078333207.sobfs" />
+    <None Include="data\108334445.sobfs" />
+    <None Include="data\1090520813.obfs" />
+    <None Include="data\109645167.sobfs" />
+    <None Include="data\1136333892.sobfs" />
+    <None Include="data\122228091.sobfs" />
+    <None Include="data\1244137339.sobfs" />
+    <None Include="data\1269698542.sobfs" />
+    <None Include="data\1312559143.sobfs" />
+    <None Include="data\1325930734.sobfs" />
+    <None Include="data\1327372527.sobfs" />
+    <None Include="data\1329336136.sobfs" />
+    <None Include="data\1330909002.sobfs" />
+    <None Include="data\1332481868.sobfs" />
+    <None Include="data\1359614032.sobfs" />
+    <None Include="data\1377243165.sobfs" />
+    <None Include="data\1408767233.sobfs" />
+    <None Include="data\142612512.sobfs" />
+    <None Include="data\1519325168.sobfs" />
+    <None Include="data\1520766962.sobfs" />
+    <None Include="data\1554649099.sobfs" />
+    <None Include="data\1562054754.sobfs" />
+    <None Include="data\1563168791.sobfs" />
+    <None Include="data\1592985585.sobfs" />
+    <None Include="data\1605573070.sobfs" />
+    <None Include="data\1623461983.sobfs" />
+    <None Include="data\1651771500.sobfs" />
+    <None Include="data\1666651460.sobfs" />
+    <None Include="data\1668552006.sobfs" />
+    <None Include="data\1670452552.sobfs" />
+    <None Include="data\1751913756.sobfs" />
+    <None Include="data\1753486622.sobfs" />
+    <None Include="data\1755059488.sobfs" />
+    <None Include="data\1756632354.sobfs" />
+    <None Include="data\1758205220.sobfs" />
+    <None Include="data\1759778086.sobfs" />
+    <None Include="data\1761350952.sobfs" />
+    <None Include="data\1762923818.sobfs" />
+    <None Include="data\1782388186.sobfs" />
+    <None Include="data\1845168236.sobfs" />
+    <None Include="data\1847527646.sobfs" />
+    <None Include="data\1853101586.sobfs" />
+    <None Include="data\1979451747.sobfs" />
+    <None Include="data\2003833010.sobfs" />
+    <None Include="data\2099777810.sobfs" />
+    <None Include="data\2106464768.sobfs" />
+    <None Include="data\2127697417.sobfs" />
+    <None Include="data\2133266663.sobfs" />
+    <None Include="data\2160464148.sobfs" />
+    <None Include="data\2168721673.sobfs" />
+    <None Include="data\2191593468.sobfs" />
+    <None Include="data\2192838654.sobfs" />
+    <None Include="data\2284785744.sobfs" />
+    <None Include="data\2288257537.sobfs" />
+    <None Include="data\2301038688.sobfs" />
+    <None Include="data\2317748787.sobfs" />
+    <None Include="data\2338589255.sobfs" />
+    <None Include="data\238030357.sobfs" />
+    <None Include="data\2401833299.sobfs" />
+    <None Include="data\242096106.sobfs" />
+    <None Include="data\242423787.sobfs" />
+    <None Include="data\2433616199.sobfs" />
+    <None Include="data\2434599241.sobfs" />
+    <None Include="data\2435582283.sobfs" />
+    <None Include="data\2436565325.sobfs" />
+    <None Include="data\2437548367.sobfs" />
+    <None Include="data\2444691797.sobfs" />
+    <None Include="data\2445674839.sobfs" />
+    <None Include="data\2446657881.sobfs" />
+    <None Include="data\2449672767.sobfs" />
+    <None Include="data\2458388843.sobfs" />
+    <None Include="data\2459371885.sobfs" />
+    <None Include="data\2483492372.sobfs" />
+    <None Include="data\2483820053.sobfs" />
+    <None Include="data\2484147734.sobfs" />
+    <None Include="data\2502956658.sobfs" />
+    <None Include="data\251137640.sobfs" />
+    <None Include="data\2539197999.sobfs" />
+    <None Include="data\2540376525.sobfs" />
+    <None Include="data\2592216738.sobfs" />
+    <None Include="data\261365580.sobfs" />
+    <None Include="data\261492294.sobfs" />
+    <None Include="data\26152486.sobfs" />
+    <None Include="data\261693261.sobfs" />
+    <None Include="data\262020942.sobfs" />
+    <None Include="data\262348623.sobfs" />
+    <None Include="data\2625442215.sobfs" />
+    <None Include="data\262676304.sobfs" />
+    <None Include="data\263003985.sobfs" />
+    <None Include="data\2630814400.sobfs" />
+    <None Include="data\2701398472.sobfs" />
+    <None Include="data\2767393284.sobfs" />
+    <None Include="data\2777420281.sobfs" />
+    <None Include="data\2778401263.sobfs" />
+    <None Include="data\2778991392.sobfs" />
+    <None Include="data\2779449841.sobfs" />
+    <None Include="data\2781153779.sobfs" />
+    <None Include="data\2782202357.sobfs" />
+    <None Include="data\2783644153.sobfs" />
+    <None Include="data\2784692731.sobfs" />
+    <None Include="data\2785741309.sobfs" />
+    <None Include="data\2791181022.sobfs" />
+    <None Include="data\279189689.sobfs" />
+    <None Include="data\2839219000.sobfs" />
+    <None Include="data\2863469130.sobfs" />
+    <None Include="data\286920271.sobfs" />
+    <None Include="data\2892307110.sobfs" />
+    <None Include="data\2896499022.sobfs" />
+    <None Include="data\2897809744.sobfs" />
+    <None Include="data\2932738866.sobfs" />
+    <None Include="data\2956923174.sobfs" />
+    <None Include="data\2958561576.sobfs" />
+    <None Include="data\297933001.sobfs" />
+    <None Include="data\3020889851.sobfs" />
+    <None Include="data\3032424201.sobfs" />
+    <None Include="data\3034255856.sobfs" />
+    <None Include="data\3034321392.sobfs" />
+    <None Include="data\3034583537.sobfs" />
+    <None Include="data\3034649073.sobfs" />
+    <None Include="data\3034911218.sobfs" />
+    <None Include="data\3035238899.sobfs" />
+    <None Include="data\3035566580.sobfs" />
+    <None Include="data\3035894261.sobfs" />
+    <None Include="data\3036221942.sobfs" />
+    <None Include="data\3036549623.sobfs" />
+    <None Include="data\3036877304.sobfs" />
+    <None Include="data\30871088.sobfs" />
+    <None Include="data\3179940845.sobfs" />
+    <None Include="data\3193244667.sobfs" />
+    <None Include="data\3231845200.sobfs" />
+    <None Include="data\3233090386.sobfs" />
+    <None Include="data\3234335572.sobfs" />
+    <None Include="data\3246590826.sobfs" />
+    <None Include="data\3276868506.sobfs" />
+    <None Include="data\3292533376.sobfs" />
+    <None Include="data\3375106891.sobfs" />
+    <None Include="data\3376286541.sobfs" />
+    <None Include="data\3377466191.sobfs" />
+    <None Include="data\3378645841.sobfs" />
+    <None Include="data\338498576.sobfs" />
+    <None Include="data\339611102.sobfs" />
+    <None Include="data\341052896.sobfs" />
+    <None Include="data\342494690.sobfs" />
+    <None Include="data\343936484.sobfs" />
+    <None Include="data\3444051050.sobfs" />
+    <None Include="data\3466007290.sobfs" />
+    <None Include="data\348001348.sobfs" />
+    <None Include="data\3485076425.sobfs" />
+    <None Include="data\348591172.sobfs" />
+    <None Include="data\3494710360.sobfs" />
+    <None Include="data\349970500.sobfs" />
+    <None Include="data\3530560030.sobfs" />
+    <None Include="data\3531936288.sobfs" />
+    <None Include="data\3532069546.sobfs" />
+    <None Include="data\3540651011.sobfs" />
+    <None Include="data\354094745.obfs" />
+    <None Include="data\355864046.sobfs" />
+    <None Include="data\357305840.sobfs" />
+    <None Include="data\3573484480.sobfs" />
+    <None Include="data\3574795202.sobfs" />
+    <None Include="data\3576105924.sobfs" />
+    <None Include="data\3577416646.sobfs" />
+    <None Include="data\358747634.sobfs" />
+    <None Include="data\3619753182.sobfs" />
+    <None Include="data\3621326046.sobfs" />
+    <None Include="data\3624275085.sobfs" />
+    <None Include="data\3629124769.sobfs" />
+    <None Include="data\3629518052.sobfs" />
+    <None Include="data\3656453142.sobfs" />
+    <None Include="data\3690400828.sobfs" />
+    <None Include="data\3691711550.sobfs" />
+    <None Include="data\3695579906.sobfs" />
+    <None Include="data\3745844336.sobfs" />
+    <None Include="data\3747155058.sobfs" />
+    <None Include="data\3748465780.sobfs" />
+    <None Include="data\3749057347.sobfs" />
+    <None Include="data\3749776502.sobfs" />
+    <None Include="data\3751087224.sobfs" />
+    <None Include="data\3752397946.sobfs" />
+    <None Include="data\3753708668.sobfs" />
+    <None Include="data\3755019390.sobfs" />
+    <None Include="data\3844279607.sobfs" />
+    <None Include="data\3873901659.sobfs" />
+    <None Include="data\3875146845.sobfs" />
+    <None Include="data\3890089081.sobfs" />
+    <None Include="data\3891334267.sobfs" />
+    <None Include="data\3892579453.sobfs" />
+    <None Include="data\3927448375.sobfs" />
+    <None Include="data\393221110.sobfs" />
+    <None Include="data\3933670563.sobfs" />
+    <None Include="data\3934915749.sobfs" />
+    <None Include="data\3971027762.sobfs" />
+    <None Include="data\3972731700.sobfs" />
+    <None Include="data\3974435638.sobfs" />
+    <None Include="data\3976139576.sobfs" />
+    <None Include="data\3977843514.sobfs" />
+    <None Include="data\3979547452.sobfs" />
+    <None Include="data\4002944901.sobfs" />
+    <None Include="data\4009233721.sobfs" />
+    <None Include="data\4048489827.sobfs" />
+    <None Include="data\4076146011.sobfs" />
+    <None Include="data\4077196218.sobfs" />
+    <None Include="data\4078505406.sobfs" />
+    <None Include="data\4088139211.sobfs" />
+    <None Include="data\4090105040.sobfs" />
+    <None Include="data\4091420625.sobfs" />
+    <None Include="data\4091481298.sobfs" />
+    <None Include="data\4108258542.sobfs" />
+    <None Include="data\4109634800.sobfs" />
+    <None Include="data\4111011058.sobfs" />
+    <None Include="data\4119468205.sobfs" />
+    <None Include="data\4130016671.sobfs" />
+    <None Include="data\4138210063.sobfs" />
+    <None Include="data\4139715854.sobfs" />
+    <None Include="data\4154592536.sobfs" />
+    <None Include="data\4155968794.sobfs" />
+    <None Include="data\4235529634.sobfs" />
+    <None Include="data\4239986094.sobfs" />
+    <None Include="data\4253683124.sobfs" />
+    <None Include="data\4278391562.sobfs" />
+    <None Include="data\4280161036.sobfs" />
+    <None Include="data\4281930510.sobfs" />
+    <None Include="data\4285009316.sobfs" />
+    <None Include="data\431428448.sobfs" />
+    <None Include="data\431756129.sobfs" />
+    <None Include="data\432083810.sobfs" />
+    <None Include="data\432411491.sobfs" />
+    <None Include="data\441585282.sobfs" />
+    <None Include="data\444274645.sobfs" />
+    <None Include="data\480647423.sobfs" />
+    <None Include="data\492637901.sobfs" />
+    <None Include="data\525471223.sobfs" />
+    <None Include="data\526847481.sobfs" />
+    <None Include="data\54663078.sobfs" />
+    <None Include="data\55908263.sobfs" />
+    <None Include="data\594024797.sobfs" />
+    <None Include="data\615322607.sobfs" />
+    <None Include="data\615650288.sobfs" />
+    <None Include="data\615977969.sobfs" />
+    <None Include="data\643237184.obfs" />
+    <None Include="data\667164759.sobfs" />
+    <None Include="data\685645029.sobfs" />
+    <None Include="data\693968997.sobfs" />
+    <None Include="data\715201779.sobfs" />
+    <None Include="data\732958467.sobfs" />
+    <None Include="data\757864748.sobfs" />
+    <None Include="data\766578501.sobfs" />
+    <None Include="data\768675436.sobfs" />
+    <None Include="data\770182766.sobfs" />
+    <None Include="data\770510667.sobfs" />
+    <None Include="data\773197652.sobfs" />
+    <None Include="data\776541278.sobfs" />
+    <None Include="data\916197170.sobfs" />
+    <None Include="data\980032874.sobfs" />
+    <None Include="data\980753766.sobfs" />
+    <None Include="data\987762554.sobfs" />
+    <None Include="data\993726328.sobfs" />
+    <None Include="data\DATA_1.dat" />
+    <None Include="data\DATA_2.dat" />
+    <None Include="data\DATA_3.dat" />
+    <None Include="data\DATA_4.dat" />
+    <None Include="de-DE\MC4Interop.resources.dll" />
+    <None Include="es-ES\MC4Interop.resources.dll" />
+    <None Include="fr-FR\MC4Interop.resources.dll" />
+    <None Include="IGPBridgeLibrary.dll" />
+    <None Include="IGPLib.dll" />
+    <None Include="IGPLib.winmd" />
+    <None Include="IGPWindowsP8.dll" />
+    <None Include="it-IT\MC4Interop.resources.dll" />
+    <None Include="ja-JP\MC4Interop.resources.dll" />
+    <None Include="ko-KR\MC4Interop.resources.dll" />
+    <None Include="MC4Component.winmd" />
+    <None Include="MC4HybridComponent.dll">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</DeploymentContent>
+    </None>
+    <None Include="MC4Interop.dll" />
+    <None Include="Microsoft.Xbox.dll" />
+    <None Include="Microsoft.Xbox.winmd" />
+    <None Include="PNWPhoneLib.dll" />
+    <None Include="pt-BR\MC4Interop.resources.dll" />
+    <None Include="PushNotificationRuntime.winmd" />
+    <None Include="PushNotificationWP8.dll" />
+    <None Include="ru-RU\MC4Interop.resources.dll" />
+    <None Include="ScheduledTask.dll" />
+    <None Include="Shaders.pak" />
+    <None Include="Shaders_HD.pak" />
+    <None Include="zh-CN\MC4Interop.resources.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="MDILFileList.xml" />
+    <Xml Include="WMAppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="AppManifest.xaml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

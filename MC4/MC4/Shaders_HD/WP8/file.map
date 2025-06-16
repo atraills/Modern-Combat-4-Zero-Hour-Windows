@@ -1,0 +1,376 @@
+WP8/0-UnlitTexturedAlphaTest.hlsl.frag;0;0;UnlitTexturedAlphaTest.hlsl.frag;FS;
+WP8/1-UnlitTexturedAlphaTest.hlsl.vert;0;0;UnlitTexturedAlphaTest.hlsl.vert;VS;
+WP8/2-ForceCommitTexture.hlsl.frag;0;0;ForceCommitTexture.hlsl.frag;FS;-DTEXTURE_TYPE=0
+WP8/3-ForceCommitTexture.hlsl.frag;0;0;ForceCommitTexture.hlsl.frag;FS;-DTEXTURE_TYPE=1
+WP8/4-ForceCommitTexture.hlsl.frag;0;0;ForceCommitTexture.hlsl.frag;FS;-DTEXTURE_TYPE=2
+WP8/5-ForceCommitTexture.hlsl.frag;0;0;ForceCommitTexture.hlsl.frag;FS;-DTEXTURE_TYPE=3
+WP8/3-ForceCommitTexture.hlsl.frag;0;0;ForceCommitTexture.hlsl.frag;FS;-DTEXTURE_TYPE=4
+WP8/6-ForceCommitTexture.hlsl.vert;0;0;ForceCommitTexture.hlsl.vert;VS;-DTEXTURE_TYPE=0
+WP8/6-ForceCommitTexture.hlsl.vert;0;0;ForceCommitTexture.hlsl.vert;VS;-DTEXTURE_TYPE=1
+WP8/7-ForceCommitTexture.hlsl.vert;0;0;ForceCommitTexture.hlsl.vert;VS;-DTEXTURE_TYPE=2
+WP8/7-ForceCommitTexture.hlsl.vert;0;0;ForceCommitTexture.hlsl.vert;VS;-DTEXTURE_TYPE=3
+WP8/6-ForceCommitTexture.hlsl.vert;0;0;ForceCommitTexture.hlsl.vert;VS;-DTEXTURE_TYPE=4
+WP8/8-TwoTextureBlend.hlsl.frag;0;0;TwoTextureBlend.hlsl.frag;FS;
+WP8/9-TwoTextureBlend.hlsl.vert;0;0;TwoTextureBlend.hlsl.vert;VS;
+WP8/10-UnlitMaterialColor.hlsl.frag;0;0;UnlitMaterialColor.hlsl.frag;FS;
+WP8/11-UnlitMaterialColor.hlsl.vert;0;0;UnlitMaterialColor.hlsl.vert;VS;
+WP8/12-UnlitMultiTextured.hlsl.frag;0;0;UnlitMultiTextured.hlsl.frag;FS;
+WP8/12-UnlitMultiTextured.hlsl.frag;0;0;UnlitMultiTextured.hlsl.frag;FS;-DSPLIT_ALPHA
+WP8/13-UnlitMultiTextured.hlsl.vert;0;0;UnlitMultiTextured.hlsl.vert;VS;
+WP8/14-UnlitTextured.hlsl.frag;0;0;UnlitTextured.hlsl.frag;FS;
+WP8/14-UnlitTextured.hlsl.frag;0;0;UnlitTextured.hlsl.frag;FS;-DSPLIT_ALPHA
+WP8/15-UnlitTextured.hlsl.frag;0;0;UnlitTextured.hlsl.frag;FS;-DTEXTURE_TYPE=2
+WP8/16-UnlitTextured.hlsl.vert;0;0;UnlitTextured.hlsl.vert;VS;
+WP8/17-UnlitTextured.hlsl.vert;0;0;UnlitTextured.hlsl.vert;VS;-DON_FAR
+WP8/18-UnlitTextured.hlsl.vert;0;0;UnlitTextured.hlsl.vert;VS;-DTEXTURE_TYPE=2 -DON_FAR
+WP8/19-UnlitTexturedBlendTextureAlpha.hlsl.frag;0;0;UnlitTexturedBlendTextureAlpha.hlsl.frag;FS;
+WP8/19-UnlitTexturedBlendTextureAlpha.hlsl.frag;0;0;UnlitTexturedBlendTextureAlpha.hlsl.frag;FS;-DSPLIT_ALPHA
+WP8/20-UnlitTexturedBlendTextureAlpha.hlsl.vert;0;0;UnlitTexturedBlendTextureAlpha.hlsl.vert;VS;
+WP8/10-UnlitMaterialColor.hlsl.frag;0;0;UnlitVertexColor.hlsl.frag;FS;
+WP8/21-UnlitVertexColor.hlsl.vert;0;0;UnlitVertexColor.hlsl.vert;VS;
+WP8/22-pass.hlsl.frag;0;0;pass.hlsl.frag;FS;
+WP8/23-pass.hlsl.vert;0;0;pass.hlsl.vert;VS;
+WP8/24-RadialBlur.hlsl.frag;0;0;RadialBlur.hlsl.frag;FS;
+WP8/25-RadialBlur.hlsl.vert;0;0;RadialBlur.hlsl.vert;VS;
+WP8/26-DepthCube.hlsl.frag;0;0;DepthCube.hlsl.frag;FS;
+WP8/27-DepthCube.hlsl.vert;0;0;DepthCube.hlsl.vert;VS;
+WP8/28-UnlitCubeMapReflection.hlsl.frag;0;0;UnlitCubeMapReflection.hlsl.frag;FS;
+WP8/29-UnlitCubeMapReflection.hlsl.vert;0;0;UnlitCubeMapReflection.hlsl.vert;VS;
+WP8/30-UnlitTextured.hlsl.frag;0;0;UnlitTextured.hlsl.frag;FS;-DTEXTURE_TYPE=1
+WP8/31-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED
+WP8/32-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DADDITIVEBLEND
+WP8/31-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DFOG
+WP8/32-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DFOG -DADDITIVEBLEND
+WP8/31-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DFOG -DLIGHTING
+WP8/32-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DFOG -DLIGHTING -DADDITIVEBLEND
+WP8/31-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DLIGHTING
+WP8/32-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DLIGHTING -DADDITIVEBLEND
+WP8/31-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DSKINNED
+WP8/32-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DSKINNED -DADDITIVEBLEND
+WP8/33-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DTEXTURED
+WP8/33-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DTEXTURED -DFOG
+WP8/34-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DTEXTURED -DFOG -DLIGHTING
+WP8/34-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DTEXTURED -DLIGHTING
+WP8/33-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DTEXTURED -DSKINNED
+WP8/31-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DQUATSKINNED
+WP8/32-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DQUATSKINNED -DADDITIVEBLEND
+WP8/31-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DTEXTURESKINNED
+WP8/32-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DTEXTURESKINNED -DADDITIVEBLEND
+WP8/33-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DTEXTURED -DQUATSKINNED
+WP8/33-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DTEXTURED -DTEXTURESKINNED
+WP8/35-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DLIGHTMAP
+WP8/35-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DLIGHTMAP -DFOG
+WP8/36-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DLIGHTMAP -DFOG -DLIGHTING
+WP8/36-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DLIGHTMAP -DLIGHTING
+WP8/35-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DLIGHTMAP -DSKINNED
+WP8/37-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DTEXTURED -DLIGHTMAP
+WP8/37-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DTEXTURED -DLIGHTMAP -DFOG
+WP8/38-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DTEXTURED -DLIGHTMAP -DFOG -DLIGHTING
+WP8/38-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DTEXTURED -DLIGHTMAP -DLIGHTING
+WP8/37-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DTEXTURED -DLIGHTMAP -DSKINNED
+WP8/39-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;
+WP8/39-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DFOG
+WP8/39-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DFOG -DLIGHTING
+WP8/39-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DLIGHTING
+WP8/39-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DSKINNED
+WP8/40-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;
+WP8/40-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DFOG
+WP8/41-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DFOG -DLIGHTING
+WP8/41-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DLIGHTING
+WP8/40-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DSKINNED
+WP8/31-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DALPHABLEND
+WP8/31-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DFOG -DALPHABLEND
+WP8/31-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DFOG -DLIGHTING -DALPHABLEND
+WP8/31-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DLIGHTING -DALPHABLEND
+WP8/31-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DSKINNED -DALPHABLEND
+WP8/42-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DMULTITEXTURED
+WP8/42-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DMULTITEXTURED -DFOG
+WP8/43-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DMULTITEXTURED -DFOG -DLIGHTING
+WP8/43-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DMULTITEXTURED -DLIGHTING
+WP8/42-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DMULTITEXTURED -DSKINNED
+WP8/44-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DTEXTURED -DMULTITEXTURED
+WP8/44-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DTEXTURED -DMULTITEXTURED -DFOG
+WP8/45-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DTEXTURED -DMULTITEXTURED -DFOG -DLIGHTING
+WP8/45-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DTEXTURED -DMULTITEXTURED -DLIGHTING
+WP8/44-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DTEXTURED -DMULTITEXTURED -DSKINNED
+WP8/31-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DQUATSKINNED -DALPHABLEND
+WP8/31-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DTEXTURESKINNED -DALPHABLEND
+WP8/32-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DADDITIVEBLEND -DALPHABLEND
+WP8/32-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DFOG -DADDITIVEBLEND -DALPHABLEND
+WP8/32-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DFOG -DLIGHTING -DADDITIVEBLEND -DALPHABLEND
+WP8/32-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DLIGHTING -DADDITIVEBLEND -DALPHABLEND
+WP8/32-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DQUATSKINNED -DADDITIVEBLEND -DALPHABLEND
+WP8/32-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DSKINNED -DADDITIVEBLEND -DALPHABLEND
+WP8/32-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DTEXTURESKINNED -DADDITIVEBLEND -DALPHABLEND
+WP8/46-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DADDITIVEBLEND
+WP8/46-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DFOG -DADDITIVEBLEND
+WP8/46-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DFOG -DLIGHTING -DADDITIVEBLEND
+WP8/46-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DLIGHTING -DADDITIVEBLEND
+WP8/46-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DSKINNED -DADDITIVEBLEND
+WP8/39-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DQUATSKINNED
+WP8/39-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURESKINNED
+WP8/40-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DQUATSKINNED
+WP8/40-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DTEXTURESKINNED
+WP8/35-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DLIGHTMAP -DQUATSKINNED
+WP8/35-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DLIGHTMAP -DTEXTURESKINNED
+WP8/37-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DTEXTURED -DLIGHTMAP -DQUATSKINNED
+WP8/37-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DTEXTURED -DLIGHTMAP -DTEXTURESKINNED
+WP8/47-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DLIGHTMAP -DADDITIVEBLEND
+WP8/47-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DLIGHTMAP -DFOG -DADDITIVEBLEND
+WP8/48-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DLIGHTMAP -DFOG -DLIGHTING -DADDITIVEBLEND
+WP8/48-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DLIGHTMAP -DLIGHTING -DADDITIVEBLEND
+WP8/47-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DTEXTURED -DLIGHTMAP -DSKINNED -DADDITIVEBLEND
+WP8/49-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DLIGHTMAP
+WP8/49-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DLIGHTMAP -DFOG
+WP8/50-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DLIGHTMAP -DFOG -DLIGHTING
+WP8/50-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DLIGHTMAP -DLIGHTING
+WP8/49-ProfileCOMMON_emul.hlsl.frag;0;0;ProfileCOMMON_emul.hlsl.frag;FS;-DLIGHTMAP -DSKINNED
+WP8/51-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DLIGHTMAP
+WP8/51-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DLIGHTMAP -DFOG
+WP8/52-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DLIGHTMAP -DFOG -DLIGHTING
+WP8/52-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DLIGHTMAP -DLIGHTING
+WP8/51-ProfileCOMMON_emul.hlsl.vert;0;0;ProfileCOMMON_emul.hlsl.vert;VS;-DLIGHTMAP -DSKINNED
+WP8/53-Armory_FS.hlsl.frag;0;0;Armory_FS.hlsl.frag;FS;
+WP8/54-Armory_VS.hlsl.vert;0;0;Armory_VS.hlsl.vert;VS;
+WP8/55-Basic_FS.hlsl.frag;0;0;Basic_FS.hlsl.frag;FS;
+WP8/55-Basic_FS.hlsl.frag;0;0;Basic_FS.hlsl.frag;FS;-DLIGHTMAPFACTOR
+WP8/56-Basic_VS.hlsl.vert;0;0;Basic_VS.hlsl.vert;VS;
+WP8/57-Basic_VS.hlsl.vert;0;0;Basic_VS.hlsl.vert;VS;-DLIGHTMAPFACTOR
+WP8/55-Basic_FS.hlsl.frag;0;0;Basic_FS.hlsl.frag;FS;-DADDITIVE
+WP8/56-Basic_VS.hlsl.vert;0;0;Basic_VS.hlsl.vert;VS;-DADDITIVE
+WP8/58-Flare_FS.hlsl.frag;0;0;Flare_FS.hlsl.frag;FS;
+WP8/59-Flare_FS.hlsl.frag;0;0;Flare_FS.hlsl.frag;FS;-DDIRTY
+WP8/60-Flare_FS.hlsl.frag;0;0;Flare_FS.hlsl.frag;FS;-DDIRTY -DDIRTONLY
+WP8/60-Flare_FS.hlsl.frag;0;0;Flare_FS.hlsl.frag;FS;-DDIRTY -DDIRTONLY -DFACING
+WP8/59-Flare_FS.hlsl.frag;0;0;Flare_FS.hlsl.frag;FS;-DDIRTY -DFACING
+WP8/58-Flare_FS.hlsl.frag;0;0;Flare_FS.hlsl.frag;FS;-DFACING
+WP8/61-Flare_VS.hlsl.vert;0;0;Flare_VS.hlsl.vert;VS;
+WP8/62-Flare_VS.hlsl.vert;0;0;Flare_VS.hlsl.vert;VS;-DDIRTY
+WP8/62-Flare_VS.hlsl.vert;0;0;Flare_VS.hlsl.vert;VS;-DDIRTY -DDIRTONLY
+WP8/62-Flare_VS.hlsl.vert;0;0;Flare_VS.hlsl.vert;VS;-DDIRTY -DDIRTONLY -DFACING
+WP8/62-Flare_VS.hlsl.vert;0;0;Flare_VS.hlsl.vert;VS;-DDIRTY -DFACING
+WP8/61-Flare_VS.hlsl.vert;0;0;Flare_VS.hlsl.vert;VS;-DFACING
+WP8/63-Detail_FS.hlsl.frag;0;0;Detail_FS.hlsl.frag;FS;-DFOG
+WP8/63-Detail_FS.hlsl.frag;0;0;Detail_FS.hlsl.frag;FS;-DINVERT
+WP8/64-Detail_FS.hlsl.frag;0;0;Detail_FS.hlsl.frag;FS;-DLIGHTMAP -DNOFOG
+WP8/63-Detail_FS.hlsl.frag;0;0;Detail_FS.hlsl.frag;FS;-DNOFOG
+WP8/65-Detail_VS.hlsl.vert;0;0;Detail_VS.hlsl.vert;VS;-DFOG
+WP8/66-Detail_VS.hlsl.vert;0;0;Detail_VS.hlsl.vert;VS;-DINVERT
+WP8/67-Detail_VS.hlsl.vert;0;0;Detail_VS.hlsl.vert;VS;-DLIGHTMAP -DNOFOG
+WP8/68-Detail_VS.hlsl.vert;0;0;Detail_VS.hlsl.vert;VS;-DNOFOG
+WP8/69-DetailTexture_FS.hlsl.frag;0;0;DetailTexture_FS.hlsl.frag;FS;
+WP8/70-DetailTexture_FS.hlsl.frag;0;0;DetailTexture_FS.hlsl.frag;FS;-DDUALDETAIL
+WP8/71-DetailTexture_FS.hlsl.frag;0;0;DetailTexture_FS.hlsl.frag;FS;-DLIGHTMAP
+WP8/72-DetailTexture_VS.hlsl.vert;0;0;DetailTexture_VS.hlsl.vert;VS;
+WP8/72-DetailTexture_VS.hlsl.vert;0;0;DetailTexture_VS.hlsl.vert;VS;-DDUALDETAIL
+WP8/73-DetailTexture_VS.hlsl.vert;0;0;DetailTexture_VS.hlsl.vert;VS;-DLIGHTMAP
+WP8/74-DirectionalLightmap_FS.hlsl.frag;0;0;DirectionalLightmap_FS.hlsl.frag;FS;
+WP8/75-DirectionalLightmap_VS.hlsl.vert;0;0;DirectionalLightmap_VS.hlsl.vert;VS;
+WP8/76-Lightmap_FS.hlsl.frag;0;0;Lightmap_FS.hlsl.frag;FS;-DSELFILLUMINATION
+WP8/77-Lightmap_VS.hlsl.vert;0;0;Lightmap_VS.hlsl.vert;VS;-DSELFILLUMINATION
+WP8/78-DistortedTexture_FS.hlsl.frag;0;0;DistortedTexture_FS.hlsl.frag;FS;
+WP8/79-DistortedTexture_FS.hlsl.frag;0;0;DistortedTexture_FS.hlsl.frag;FS;-DLIGHTMAP
+WP8/80-DistortedTexture_VS.hlsl.vert;0;0;DistortedTexture_VS.hlsl.vert;VS;
+WP8/81-DistortedTexture_VS.hlsl.vert;0;0;DistortedTexture_VS.hlsl.vert;VS;-DLIGHTMAP
+WP8/82-Dynamic_FS.hlsl.frag;0;0;Dynamic_FS.hlsl.frag;FS;
+WP8/82-Dynamic_FS.hlsl.frag;0;0;Dynamic_FS.hlsl.frag;FS;-DPOINTLIGHT
+WP8/83-Dynamic_VS.hlsl.vert;0;0;Dynamic_VS.hlsl.vert;VS;
+WP8/84-Dynamic_VS.hlsl.vert;0;0;Dynamic_VS.hlsl.vert;VS;-DPOINTLIGHT
+WP8/85-Dynamic_FS.hlsl.frag;0;0;Dynamic_FS.hlsl.frag;FS;-DNORMALMAP -DSPECULARMAP
+WP8/85-Dynamic_FS.hlsl.frag;0;0;Dynamic_FS.hlsl.frag;FS;-DNORMALMAP -DSPECULARMAP -DPOINTLIGHT
+WP8/85-Dynamic_FS.hlsl.frag;0;0;Dynamic_FS.hlsl.frag;FS;-DNORMALMAP -DSPECULARMAP -DPOINTLIGHT -DSKINNED
+WP8/85-Dynamic_FS.hlsl.frag;0;0;Dynamic_FS.hlsl.frag;FS;-DNORMALMAP -DSPECULARMAP -DSKINNED
+WP8/86-Dynamic_VS.hlsl.vert;0;0;Dynamic_VS.hlsl.vert;VS;-DNORMALMAP -DSPECULARMAP
+WP8/87-Dynamic_VS.hlsl.vert;0;0;Dynamic_VS.hlsl.vert;VS;-DNORMALMAP -DSPECULARMAP -DPOINTLIGHT
+WP8/88-Dynamic_VS.hlsl.vert;0;0;Dynamic_VS.hlsl.vert;VS;-DNORMALMAP -DSPECULARMAP -DPOINTLIGHT -DSKINNED
+WP8/89-Dynamic_VS.hlsl.vert;0;0;Dynamic_VS.hlsl.vert;VS;-DNORMALMAP -DSPECULARMAP -DSKINNED
+WP8/90-Fresnel_FS.hlsl.frag;0;0;Fresnel_FS.hlsl.frag;FS;-DLIGHTMAP
+WP8/91-Fresnel_VS.hlsl.vert;0;0;Fresnel_VS.hlsl.vert;VS;-DLIGHTMAP
+WP8/92-GL_TextureBlend_FS.hlsl.frag;0;0;GL_TextureBlend_FS.hlsl.frag;FS;-DLIGHTMAP -DFOG
+WP8/93-GL_TextureBlend_VS.hlsl.vert;0;0;GL_TextureBlend_VS.hlsl.vert;VS;-DLIGHTMAP -DFOG
+WP8/94-GL_SHIrradiance_FS.hlsl.frag;0;0;GL_SHIrradiance_FS.hlsl.frag;FS;-DNORMALMAP -DSPECULARMAP -DCUBE -DREFLECTIONMAP
+WP8/95-GL_SHIrradiance_VS.hlsl.vert;0;0;GL_SHIrradiance_VS.hlsl.vert;VS;-DNORMALMAP -DSPECULARMAP -DCUBE -DREFLECTIONMAP
+WP8/96-GL_CubeReflection_FS.hlsl.frag;0;0;GL_CubeReflection_FS.hlsl.frag;FS;-DFOG -DLIGHTMAP -DREFLECTIONMAP
+WP8/97-GL_CubeReflection_VS.hlsl.vert;0;0;GL_CubeReflection_VS.hlsl.vert;VS;-DFOG -DLIGHTMAP -DREFLECTIONMAP
+WP8/98-GL_CubeReflection_FS.hlsl.frag;0;0;GL_CubeReflection_FS.hlsl.frag;FS;-DNORMALMAP
+WP8/99-GL_CubeReflection_VS.hlsl.vert;0;0;GL_CubeReflection_VS.hlsl.vert;VS;-DNORMALMAP
+WP8/100-GL_DeepWater_FS.hlsl.frag;0;0;GL_DeepWater_FS.hlsl.frag;FS;-DFOG
+WP8/101-GL_DeepWater_VS.hlsl.vert;0;0;GL_DeepWater_VS.hlsl.vert;VS;-DFOG
+WP8/100-GL_DeepWater_FS.hlsl.frag;0;0;GL_DeepWater_FS.hlsl.frag;FS;-DFOG -DALPHA
+WP8/102-GL_DeepWater_VS.hlsl.vert;0;0;GL_DeepWater_VS.hlsl.vert;VS;-DFOG -DALPHA
+WP8/103-GL_Distortion_FS.hlsl.frag;0;0;GL_Distortion_FS.hlsl.frag;FS;
+WP8/104-GL_Distortion_VS.hlsl.vert;0;0;GL_Distortion_VS.hlsl.vert;VS;
+WP8/105-GL_Distortion_FS.hlsl.frag;0;0;GL_Distortion_FS.hlsl.frag;FS;-DWATER
+WP8/104-GL_Distortion_VS.hlsl.vert;0;0;GL_Distortion_VS.hlsl.vert;VS;-DWATER
+WP8/106-GL_Lightmap_FS.hlsl.frag;0;0;GL_Lightmap_FS.hlsl.frag;FS;-DDUAL -DFOG
+WP8/107-GL_Lightmap_VS.hlsl.vert;0;0;GL_Lightmap_VS.hlsl.vert;VS;-DDUAL -DFOG
+WP8/108-GL_Lightmap_FS.hlsl.frag;0;0;GL_Lightmap_FS.hlsl.frag;FS;-DDUAL -DFOG -DCUBE -DREFLECTIONMAP
+WP8/109-GL_Lightmap_VS.hlsl.vert;0;0;GL_Lightmap_VS.hlsl.vert;VS;-DDUAL -DFOG -DCUBE -DREFLECTIONMAP
+WP8/98-GL_CubeReflection_FS.hlsl.frag;0;0;GL_CubeReflection_FS.hlsl.frag;FS;-DADDITIVEBLEND
+WP8/99-GL_CubeReflection_VS.hlsl.vert;0;0;GL_CubeReflection_VS.hlsl.vert;VS;-DADDITIVEBLEND
+WP8/98-GL_CubeReflection_FS.hlsl.frag;0;0;GL_CubeReflection_FS.hlsl.frag;FS;-DIRRADIANCE -DADDITIVEBLEND
+WP8/99-GL_CubeReflection_VS.hlsl.vert;0;0;GL_CubeReflection_VS.hlsl.vert;VS;-DIRRADIANCE -DADDITIVEBLEND
+WP8/110-GL_Lightmap_FS.hlsl.frag;0;0;GL_Lightmap_FS.hlsl.frag;FS;
+WP8/107-GL_Lightmap_VS.hlsl.vert;0;0;GL_Lightmap_VS.hlsl.vert;VS;
+WP8/111-GL_TextureBlend_FS.hlsl.frag;0;0;GL_TextureBlend_FS.hlsl.frag;FS;-DGAMMA
+WP8/112-GL_TextureBlend_VS.hlsl.vert;0;0;GL_TextureBlend_VS.hlsl.vert;VS;-DGAMMA
+WP8/113-GL_SelfIllum_FS.hlsl.frag;0;0;GL_SelfIllum_FS.hlsl.frag;FS;
+WP8/114-GL_SelfIllum_VS.hlsl.vert;0;0;GL_SelfIllum_VS.hlsl.vert;VS;
+WP8/115-GL_SHIrradiance_FS.hlsl.frag;0;0;GL_SHIrradiance_FS.hlsl.frag;FS;
+WP8/115-GL_SHIrradiance_FS.hlsl.frag;0;0;GL_SHIrradiance_FS.hlsl.frag;FS;-DIRRADIANCE_BAKED
+WP8/115-GL_SHIrradiance_FS.hlsl.frag;0;0;GL_SHIrradiance_FS.hlsl.frag;FS;-DPOINTLIGHT
+WP8/116-GL_SHIrradiance_VS.hlsl.vert;0;0;GL_SHIrradiance_VS.hlsl.vert;VS;
+WP8/117-GL_SHIrradiance_VS.hlsl.vert;0;0;GL_SHIrradiance_VS.hlsl.vert;VS;-DIRRADIANCE_BAKED
+WP8/118-GL_SHIrradiance_VS.hlsl.vert;0;0;GL_SHIrradiance_VS.hlsl.vert;VS;-DPOINTLIGHT
+WP8/119-Outline_FS.hlsl.frag;0;0;Outline_FS.hlsl.frag;FS;
+WP8/120-Outline_VS.hlsl.vert;0;0;Outline_VS.hlsl.vert;VS;
+WP8/121-GL_SHIrradiance_FS.hlsl.frag;0;0;GL_SHIrradiance_FS.hlsl.frag;FS;-DNORMALMAP
+WP8/121-GL_SHIrradiance_FS.hlsl.frag;0;0;GL_SHIrradiance_FS.hlsl.frag;FS;-DNORMALMAP -DPOINTLIGHT
+WP8/122-GL_SHIrradiance_VS.hlsl.vert;0;0;GL_SHIrradiance_VS.hlsl.vert;VS;-DNORMALMAP
+WP8/123-GL_SHIrradiance_VS.hlsl.vert;0;0;GL_SHIrradiance_VS.hlsl.vert;VS;-DNORMALMAP -DPOINTLIGHT
+WP8/115-GL_SHIrradiance_FS.hlsl.frag;0;0;GL_SHIrradiance_FS.hlsl.frag;FS;-DRIM
+WP8/116-GL_SHIrradiance_VS.hlsl.vert;0;0;GL_SHIrradiance_VS.hlsl.vert;VS;-DRIM
+WP8/124-GL_SHIrradiance_FS.hlsl.frag;0;0;GL_SHIrradiance_FS.hlsl.frag;FS;-DSPECULAR
+WP8/125-GL_SHIrradiance_VS.hlsl.vert;0;0;GL_SHIrradiance_VS.hlsl.vert;VS;-DSPECULAR
+WP8/126-GL_SHIrradiance_FS.hlsl.frag;0;0;GL_SHIrradiance_FS.hlsl.frag;FS;-DNORMALMAP -DSPECULARMAP
+WP8/126-GL_SHIrradiance_FS.hlsl.frag;0;0;GL_SHIrradiance_FS.hlsl.frag;FS;-DNORMALMAP -DSPECULARMAP -DPOINTLIGHT
+WP8/122-GL_SHIrradiance_VS.hlsl.vert;0;0;GL_SHIrradiance_VS.hlsl.vert;VS;-DNORMALMAP -DSPECULARMAP
+WP8/123-GL_SHIrradiance_VS.hlsl.vert;0;0;GL_SHIrradiance_VS.hlsl.vert;VS;-DNORMALMAP -DSPECULARMAP -DPOINTLIGHT
+WP8/119-Outline_FS.hlsl.frag;0;0;Outline_FS.hlsl.frag;FS;-DNORMALMAP -DSPECULARMAP
+WP8/120-Outline_VS.hlsl.vert;0;0;Outline_VS.hlsl.vert;VS;-DNORMALMAP -DSPECULARMAP
+WP8/126-GL_SHIrradiance_FS.hlsl.frag;0;0;GL_SHIrradiance_FS.hlsl.frag;FS;-DNORMALMAP -DSPECULARMAP -DFORCESHADOWMAP
+WP8/126-GL_SHIrradiance_FS.hlsl.frag;0;0;GL_SHIrradiance_FS.hlsl.frag;FS;-DNORMALMAP -DSPECULARMAP -DPOINTLIGHT -DFORCESHADOWMAP
+WP8/122-GL_SHIrradiance_VS.hlsl.vert;0;0;GL_SHIrradiance_VS.hlsl.vert;VS;-DNORMALMAP -DSPECULARMAP -DFORCESHADOWMAP
+WP8/123-GL_SHIrradiance_VS.hlsl.vert;0;0;GL_SHIrradiance_VS.hlsl.vert;VS;-DNORMALMAP -DSPECULARMAP -DPOINTLIGHT -DFORCESHADOWMAP
+WP8/127-GL_TextureBlend_FS.hlsl.frag;0;0;GL_TextureBlend_FS.hlsl.frag;FS;-DBLENDMAP -DLIGHTMAP -DFOG
+WP8/128-GL_TextureBlend_VS.hlsl.vert;0;0;GL_TextureBlend_VS.hlsl.vert;VS;-DBLENDMAP -DLIGHTMAP -DFOG
+WP8/129-Highlight_FS.hlsl.frag;0;0;Highlight_FS.hlsl.frag;FS;-DPLAIN -DPLAIN_UNIFORM
+WP8/130-Highlight_VS.hlsl.vert;0;0;Highlight_VS.hlsl.vert;VS;-DPLAIN -DPLAIN_UNIFORM
+WP8/131-Lightmap_FS.hlsl.frag;0;0;Lightmap_FS.hlsl.frag;FS;
+WP8/77-Lightmap_VS.hlsl.vert;0;0;Lightmap_VS.hlsl.vert;VS;
+WP8/132-Particle_FS.hlsl.frag;0;0;Particle_FS.hlsl.frag;FS;-DADDITIVE
+WP8/133-Particle_FS.hlsl.frag;0;0;Particle_FS.hlsl.frag;FS;-DADDITIVE -DDIFFUSECOLOR
+WP8/134-Particle_VS.hlsl.vert;0;0;Particle_VS.hlsl.vert;VS;-DADDITIVE
+WP8/134-Particle_VS.hlsl.vert;0;0;Particle_VS.hlsl.vert;VS;-DADDITIVE -DDIFFUSECOLOR
+WP8/135-SoftParticle_FS.hlsl.frag;0;0;SoftParticle_FS.hlsl.frag;FS;-DSOFTDEPTH -DADDITIVE
+WP8/136-SoftParticle_FS.hlsl.frag;0;0;SoftParticle_FS.hlsl.frag;FS;-DSOFTDEPTH -DADDITIVE -DFACING
+WP8/137-SoftParticle_VS.hlsl.vert;0;0;SoftParticle_VS.hlsl.vert;VS;-DSOFTDEPTH -DADDITIVE
+WP8/138-SoftParticle_VS.hlsl.vert;0;0;SoftParticle_VS.hlsl.vert;VS;-DSOFTDEPTH -DADDITIVE -DFACING
+WP8/139-Particle_FS.hlsl.frag;0;0;Particle_FS.hlsl.frag;FS;
+WP8/140-Particle_FS.hlsl.frag;0;0;Particle_FS.hlsl.frag;FS;-DDIFFUSECOLOR
+WP8/141-Particle_VS.hlsl.vert;0;0;Particle_VS.hlsl.vert;VS;
+WP8/141-Particle_VS.hlsl.vert;0;0;Particle_VS.hlsl.vert;VS;-DDIFFUSECOLOR
+WP8/142-SoftParticle_FS.hlsl.frag;0;0;SoftParticle_FS.hlsl.frag;FS;-DSOFTDEPTH
+WP8/143-SoftParticle_FS.hlsl.frag;0;0;SoftParticle_FS.hlsl.frag;FS;-DSOFTDEPTH -DFACING
+WP8/144-SoftParticle_VS.hlsl.vert;0;0;SoftParticle_VS.hlsl.vert;VS;-DSOFTDEPTH
+WP8/145-SoftParticle_VS.hlsl.vert;0;0;SoftParticle_VS.hlsl.vert;VS;-DSOFTDEPTH -DFACING
+WP8/146-PlaneReflection_FS.hlsl.frag;0;0;PlaneReflection_FS.hlsl.frag;FS;
+WP8/147-PlaneReflection_FS.hlsl.frag;0;0;PlaneReflection_FS.hlsl.frag;FS;-DDISTORTION
+WP8/148-PlaneReflection_FS.hlsl.frag;0;0;PlaneReflection_FS.hlsl.frag;FS;-DDISTORTION -DREFLECTIONMAP
+WP8/149-PlaneReflection_FS.hlsl.frag;0;0;PlaneReflection_FS.hlsl.frag;FS;-DREFLECTIONMAP
+WP8/150-PlaneReflection_VS.hlsl.vert;0;0;PlaneReflection_VS.hlsl.vert;VS;
+WP8/151-PlaneReflection_VS.hlsl.vert;0;0;PlaneReflection_VS.hlsl.vert;VS;-DDISTORTION
+WP8/151-PlaneReflection_VS.hlsl.vert;0;0;PlaneReflection_VS.hlsl.vert;VS;-DDISTORTION -DREFLECTIONMAP
+WP8/151-PlaneReflection_VS.hlsl.vert;0;0;PlaneReflection_VS.hlsl.vert;VS;-DREFLECTIONMAP
+WP8/152-PlaneReflection_FS.hlsl.frag;0;0;PlaneReflection_FS.hlsl.frag;FS;-DFRESNEL
+WP8/153-PlaneReflection_VS.hlsl.vert;0;0;PlaneReflection_VS.hlsl.vert;VS;-DFRESNEL
+WP8/154-ProfileCommon_FS.hlsl.frag;0;0;ProfileCommon_FS.hlsl.frag;FS;-DPOINTLIGHT_IMPORTANT
+WP8/155-ProfileCommon_VS.hlsl.vert;0;0;ProfileCommon_VS.hlsl.vert;VS;-DPOINTLIGHT_IMPORTANT
+WP8/55-Basic_FS.hlsl.frag;0;0;Basic_FS.hlsl.frag;FS;-DTONED
+WP8/56-Basic_VS.hlsl.vert;0;0;Basic_VS.hlsl.vert;VS;-DTONED
+WP8/156-ShadowMap_FS.hlsl.frag;0;0;ShadowMap_FS.hlsl.frag;FS;
+WP8/156-ShadowMap_FS.hlsl.frag;0;0;ShadowMap_FS.hlsl.frag;FS;-DSKINNED
+WP8/157-ShadowMap_VS.hlsl.vert;0;0;ShadowMap_VS.hlsl.vert;VS;
+WP8/158-ShadowMap_VS.hlsl.vert;0;0;ShadowMap_VS.hlsl.vert;VS;-DSKINNED
+WP8/159-TextureBlend_FS.hlsl.frag;0;0;TextureBlend_FS.hlsl.frag;FS;-DBLENDMAP -DLIGHTMAP -DFOG
+WP8/160-TextureBlend_FS.hlsl.frag;0;0;TextureBlend_FS.hlsl.frag;FS;-DLIGHTMAP -DFOG
+WP8/161-TextureBlend_VS.hlsl.vert;0;0;TextureBlend_VS.hlsl.vert;VS;-DBLENDMAP -DLIGHTMAP -DFOG
+WP8/162-TextureBlend_VS.hlsl.vert;0;0;TextureBlend_VS.hlsl.vert;VS;-DLIGHTMAP -DFOG
+WP8/163-Wind_FS.hlsl.frag;0;0;Wind_FS.hlsl.frag;FS;
+WP8/164-Wind_FS.hlsl.frag;0;0;Wind_FS.hlsl.frag;FS;-DLIGHTMAP
+WP8/165-Wind_VS.hlsl.vert;0;0;Wind_VS.hlsl.vert;VS;
+WP8/165-Wind_VS.hlsl.vert;0;0;Wind_VS.hlsl.vert;VS;-DLIGHTMAP
+WP8/166-VolumetricLight_FS.hlsl.frag;0;0;VolumetricLight_FS.hlsl.frag;FS;-DFALLOFFTEXTURE
+WP8/166-VolumetricLight_FS.hlsl.frag;0;0;VolumetricLight_FS.hlsl.frag;FS;-DFALLOFFTEXTURE -DFADE
+WP8/167-VolumetricLight_VS.hlsl.vert;0;0;VolumetricLight_VS.hlsl.vert;VS;-DFALLOFFTEXTURE
+WP8/168-VolumetricLight_VS.hlsl.vert;0;0;VolumetricLight_VS.hlsl.vert;VS;-DFALLOFFTEXTURE -DFADE
+WP8/169-BloomCutFS.hlsl.frag;0;0;BloomCutFS.hlsl.frag;FS;
+WP8/170-BloomCutVS.hlsl.vert;0;0;BloomCutVS.hlsl.vert;VS;
+WP8/171-BloomFS.hlsl.frag;0;0;BloomFS.hlsl.frag;FS;
+WP8/172-BloomStage1FS.hlsl.frag;0;0;BloomStage1FS.hlsl.frag;FS;
+WP8/173-BloomStage1VS.hlsl.vert;0;0;BloomStage1VS.hlsl.vert;VS;
+WP8/174-BloomStage2FS.hlsl.frag;0;0;BloomStage2FS.hlsl.frag;FS;
+WP8/175-BloomStage2VS.hlsl.vert;0;0;BloomStage2VS.hlsl.vert;VS;
+WP8/176-BloomStage3FS.hlsl.frag;0;0;BloomStage3FS.hlsl.frag;FS;
+WP8/177-BloomStage3VS.hlsl.vert;0;0;BloomStage3VS.hlsl.vert;VS;
+WP8/178-BloomVS.hlsl.vert;0;0;BloomVS.hlsl.vert;VS;
+WP8/179-BlurFS.hlsl.frag;0;0;BlurFS.hlsl.frag;FS;
+WP8/180-BlurVS.hlsl.vert;0;0;BlurVS.hlsl.vert;VS;
+WP8/181-DOFBlurFS.hlsl.frag;0;0;DOFBlurFS.hlsl.frag;FS;
+WP8/180-BlurVS.hlsl.vert;0;0;DOFBlurVS.hlsl.vert;VS;
+WP8/182-DecimatedStage1FS.hlsl.frag;0;0;DecimatedStage1FS.hlsl.frag;FS;
+WP8/183-DecimatedStage1VS.hlsl.vert;0;0;DecimatedStage1VS.hlsl.vert;VS;
+WP8/174-BloomStage2FS.hlsl.frag;0;0;DecimatedStage2FS.hlsl.frag;FS;
+WP8/184-DecimatedStage2VS.hlsl.vert;0;0;DecimatedStage2VS.hlsl.vert;VS;
+WP8/185-DepthOfFieldFS.hlsl.frag;0;0;DepthOfFieldFS.hlsl.frag;FS;
+WP8/180-BlurVS.hlsl.vert;0;0;DepthOfFieldVS.hlsl.vert;VS;
+WP8/182-DecimatedStage1FS.hlsl.frag;0;0;DepthStage1FS.hlsl.frag;FS;
+WP8/186-DepthStage1VS.hlsl.vert;0;0;DepthStage1VS.hlsl.vert;VS;
+WP8/187-DepthStage2FS.hlsl.frag;0;0;DepthStage2FS.hlsl.frag;FS;
+WP8/188-DepthStage2VS.hlsl.vert;0;0;DepthStage2VS.hlsl.vert;VS;
+WP8/189-DepthStage3FS.hlsl.frag;0;0;DepthStage3FS.hlsl.frag;FS;
+WP8/190-DepthStage3VS.hlsl.vert;0;0;DepthStage3VS.hlsl.vert;VS;
+WP8/191-DepthStageDepth1FS.hlsl.frag;0;0;DepthStageDepth1FS.hlsl.frag;FS;
+WP8/192-DepthStageDepth1VS.hlsl.vert;0;0;DepthStageDepth1VS.hlsl.vert;VS;
+WP8/193-DepthStageDepth2FS.hlsl.frag;0;0;DepthStageDepth2FS.hlsl.frag;FS;
+WP8/188-DepthStage2VS.hlsl.vert;0;0;DepthStageDepth2VS.hlsl.vert;VS;
+WP8/194-DepthStageDepth3FS.hlsl.frag;0;0;DepthStageDepth3FS.hlsl.frag;FS;
+WP8/190-DepthStage3VS.hlsl.vert;0;0;DepthStageDepth3VS.hlsl.vert;VS;
+WP8/195-DesaturateFS.hlsl.frag;0;0;DesaturateFS.hlsl.frag;FS;
+WP8/196-DesaturateVS.hlsl.vert;0;0;DesaturateVS.hlsl.vert;VS;
+WP8/197-DistortionFS.hlsl.frag;0;0;DistortionFS.hlsl.frag;FS;
+WP8/196-DesaturateVS.hlsl.vert;0;0;DistortionVS.hlsl.vert;VS;
+WP8/198-FilterFS.hlsl.frag;0;0;FilterFS.hlsl.frag;FS;
+WP8/199-FilterVS.hlsl.vert;0;0;FilterVS.hlsl.vert;VS;
+WP8/200-FlashFS.hlsl.frag;0;0;FlashFS.hlsl.frag;FS;
+WP8/196-DesaturateVS.hlsl.vert;0;0;FlashVS.hlsl.vert;VS;
+WP8/179-BlurFS.hlsl.frag;0;0;IGMFS.hlsl.frag;FS;
+WP8/180-BlurVS.hlsl.vert;0;0;IGMVS.hlsl.vert;VS;
+WP8/201-InfraStage3FS.hlsl.frag;0;0;InfraStage3FS.hlsl.frag;FS;
+WP8/202-InfraStage3FS.hlsl.frag;0;0;InfraStage3FS.hlsl.frag;FS;-DBLUR
+WP8/203-InfraStage3FS.hlsl.frag;0;0;InfraStage3FS.hlsl.frag;FS;-DBLUR -DINVERTED
+WP8/204-InfraStage3FS.hlsl.frag;0;0;InfraStage3FS.hlsl.frag;FS;-DINVERTED
+WP8/205-InfraStage3FS.hlsl.frag;0;0;InfraStage3FS.hlsl.frag;FS;-DNOISE -DLINES -DBLUR
+WP8/206-InfraStage3FS.hlsl.frag;0;0;InfraStage3FS.hlsl.frag;FS;-DNOISE -DLINES -DBLUR -DINVERTED
+WP8/207-InfraStage3VS.hlsl.vert;0;0;InfraStage3VS.hlsl.vert;VS;
+WP8/208-LensFS.hlsl.frag;0;0;LensFS.hlsl.frag;FS;
+WP8/209-LensVS.hlsl.vert;0;0;LensVS.hlsl.vert;VS;
+WP8/210-MenuBackgroundFS.hlsl.frag;0;0;MenuBackgroundFS.hlsl.frag;FS;
+WP8/211-MenuBackgroundVS.hlsl.vert;0;0;MenuBackgroundVS.hlsl.vert;VS;
+WP8/212-MotionBlurFS.hlsl.frag;0;0;MotionBlurFS.hlsl.frag;FS;
+WP8/213-MotionBlurFS.hlsl.frag;0;0;MotionBlurFS.hlsl.frag;FS;-DLOW
+WP8/214-MotionBlurVS.hlsl.vert;0;0;MotionBlurVS.hlsl.vert;VS;
+WP8/215-NukeStage3FS.hlsl.frag;0;0;NukeStage3FS.hlsl.frag;FS;
+WP8/216-NukeStage3FS.hlsl.frag;0;0;NukeStage3FS.hlsl.frag;FS;-DBLUR
+WP8/217-NukeStage3VS.hlsl.vert;0;0;NukeStage3VS.hlsl.vert;VS;
+WP8/182-DecimatedStage1FS.hlsl.frag;0;0;NullFS.hlsl.frag;FS;
+WP8/196-DesaturateVS.hlsl.vert;0;0;NullVS.hlsl.vert;VS;
+WP8/218-PhotoFS.hlsl.frag;0;0;PhotoFS.hlsl.frag;FS;
+WP8/219-PhotoVS.hlsl.vert;0;0;PhotoVS.hlsl.vert;VS;
+WP8/212-MotionBlurFS.hlsl.frag;0;0;RadialBlurFS.hlsl.frag;FS;
+WP8/211-MenuBackgroundVS.hlsl.vert;0;0;RadialBlurVS.hlsl.vert;VS;
+WP8/220-RadialCircleBlurFS.hlsl.frag;0;0;RadialCircleBlurFS.hlsl.frag;FS;
+WP8/221-RadialCircleBlurVS.hlsl.vert;0;0;RadialCircleBlurVS.hlsl.vert;VS;
+WP8/222-SelectiveBlurStage3FS.hlsl.frag;0;0;SelectiveBlurStage3FS.hlsl.frag;FS;
+WP8/223-SelectiveBlurStage3VS.hlsl.vert;0;0;SelectiveBlurStage3VS.hlsl.vert;VS;
+WP8/224-GameSWF.hlsl.frag;0;0;GameSWF.hlsl.frag;fs;
+WP8/224-GameSWF.hlsl.frag;0;0;GameSWF.hlsl.frag;fs;-DSPLIT_ALPHA
+WP8/225-GameSWF.hlsl.vert;0;0;GameSWF.hlsl.vert;vs;
+WP8/226-GameSWF_blend.hlsl.frag;0;0;GameSWF_blend.hlsl.frag;fs;
+WP8/226-GameSWF_blend.hlsl.frag;0;0;GameSWF_blend.hlsl.frag;fs;-DSPLIT_ALPHA
+WP8/227-GameSWF_blur.hlsl.frag;0;0;GameSWF_blur.hlsl.frag;fs;-DHORIZONTAL_BLUR_5=1
+WP8/228-GameSWF_blur.hlsl.frag;0;0;GameSWF_blur.hlsl.frag;fs;-DVERTICAL_BLUR_5=1
+WP8/229-GameSWF_color.hlsl.frag;0;0;GameSWF_color.hlsl.frag;fs;
+WP8/230-GameSWF_demultiply.hlsl.frag;0;0;GameSWF_demultiply.hlsl.frag;fs;
+WP8/231-GameSWF_displacement.hlsl.frag;0;0;GameSWF_displacement.hlsl.frag;fs;
+WP8/232-GameSWF_video.hlsl.frag;0;0;GameSWF_video.hlsl.frag;fs;

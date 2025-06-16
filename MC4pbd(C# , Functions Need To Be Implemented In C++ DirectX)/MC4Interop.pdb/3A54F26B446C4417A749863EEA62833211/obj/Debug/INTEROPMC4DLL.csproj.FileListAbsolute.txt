@@ -1,0 +1,13 @@
+C:\Users\Atraills\Documents\Visual Studio 2012\Projects\MC4pbd\MC4Interop.pdb\3A54F26B446C4417A749863EEA62833211\obj\Debug\app.baml
+C:\Users\Atraills\Documents\Visual Studio 2012\Projects\MC4pbd\MC4Interop.pdb\3A54F26B446C4417A749863EEA62833211\obj\Debug\glivepage.baml
+C:\Users\Atraills\Documents\Visual Studio 2012\Projects\MC4pbd\MC4Interop.pdb\3A54F26B446C4417A749863EEA62833211\obj\Debug\mainpage.baml
+C:\Users\Atraills\Documents\Visual Studio 2012\Projects\MC4pbd\MC4Interop.pdb\3A54F26B446C4417A749863EEA62833211\obj\Debug\serviceunavailable.baml
+C:\Users\Atraills\Documents\Visual Studio 2012\Projects\MC4pbd\MC4Interop.pdb\3A54F26B446C4417A749863EEA62833211\obj\Debug\videoplayer.baml
+C:\Users\Atraills\Documents\Visual Studio 2012\Projects\MC4pbd\MC4Interop.pdb\3A54F26B446C4417A749863EEA62833211\obj\Debug\app.g.cs
+C:\Users\Atraills\Documents\Visual Studio 2012\Projects\MC4pbd\MC4Interop.pdb\3A54F26B446C4417A749863EEA62833211\obj\Debug\glivepage.g.cs
+C:\Users\Atraills\Documents\Visual Studio 2012\Projects\MC4pbd\MC4Interop.pdb\3A54F26B446C4417A749863EEA62833211\obj\Debug\serviceunavailable.g.cs
+C:\Users\Atraills\Documents\Visual Studio 2012\Projects\MC4pbd\MC4Interop.pdb\3A54F26B446C4417A749863EEA62833211\obj\Debug\videoplayer.g.cs
+C:\Users\Atraills\Documents\Visual Studio 2012\Projects\MC4pbd\MC4Interop.pdb\3A54F26B446C4417A749863EEA62833211\obj\Debug\ClassLibrary_MarkupCompile.cache
+C:\Users\Atraills\Documents\Visual Studio 2012\Projects\MC4pbd\MC4Interop.pdb\3A54F26B446C4417A749863EEA62833211\obj\Debug\ClassLibrary.g.resources
+C:\Users\Atraills\Documents\Visual Studio 2012\Projects\MC4pbd\MC4Interop.pdb\3A54F26B446C4417A749863EEA62833211\obj\Debug\MC4Interop.MC4Interop.Resources.AppResources.resources
+C:\Users\Atraills\Documents\Visual Studio 2012\Projects\MC4pbd\MC4Interop.pdb\3A54F26B446C4417A749863EEA62833211\obj\Debug\INTEROPMC4DLL.csproj.GenerateResource.Cache

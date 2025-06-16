@@ -1,0 +1,53 @@
+{
+	"snsConfig" :
+	{
+		"Win32"  :
+		{
+			"Test"		: 1,
+			"Ldap"		: 1,
+			"GLLive"	: 1
+		},
+		"iPhone"	:
+		{
+			"Test"		: 1,
+			"GLLive"	: 1,
+			"Facebook"	:
+			{		
+				"appID"			: "11361974077",
+				"gameExtension"	: "mciv"
+			},
+			"Twitter"	:
+			{
+				"apiKey"			: "H6OhAWQpIRpmq7XfmLxpw",
+				"consumerKey"		: "H6OhAWQpIRpmq7XfmLxpw",
+				"consumerSecret"	: "A9h331KhMkQUMljaR2v7MtUj59xdteqfvaUPc2DwQZ0"
+			},
+			"GameCenter"		: 1,
+			"EmailPhonebook"	: 1,
+			"NumberPhonebook"	: 1,
+			"SinaWeibo"			: 
+			{
+				"appID"			: "3410894887",
+				"appSecret"		: "640618f8ace6972922ed3459603d0738"
+			}
+		},
+		"Android"	:
+		{
+			"Test"		: 1,
+			"GLLive"	: 1,
+			"Facebook"	:
+			{		
+				"appID"			: "170153096423548",
+				"gameExtension"	: "mciv"
+			},
+			"Twitter"	:
+			{
+				"apiKey"			: "GN4nP1a6MzM4pAgoabx3Lw",
+				"consumerKey"		: "GN4nP1a6MzM4pAgoabx3Lw",
+				"consumerSecret"	: "6Wgwz1tg5tMkfuX05kO7hjKSfas5OZKzqLiaEqmDx0U"
+			},
+			"EmailPhonebook"	: 1,
+			"NumberPhonebook"	: 1
+		}
+	}
+}

@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  MC4.cpp
+c:\users\atraills\documents\visual studio 2012\projects\mc4\mc4\mc4.cpp(49): error C2065: 'DXGI_SWAP_EFFECT_FLIP_DISCARD' : undeclared identifier
+c:\users\atraills\documents\visual studio 2012\projects\mc4\mc4\mc4.cpp(156): error C2065: 'msg' : undeclared identifier
+c:\users\atraills\documents\visual studio 2012\projects\mc4\mc4\mc4.cpp(156): error C2228: left of '.wParam' must have class/struct/union
+          type is ''unknown-type''

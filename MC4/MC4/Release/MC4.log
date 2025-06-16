@@ -1,0 +1,46 @@
+﻿  MC4.cpp
+  Source.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\msclr/auto_gcroot.h(18): fatal error C1189: #error :  ERROR: msclr libraries are not compatible with /clr:oldSyntax (Source.cpp)
+MC4.cpp(130): error C2065: 'IDirect3DBackground' : undeclared identifier
+MC4.cpp(130): error C2923: 'Microsoft::WRL::ComPtr' : 'IDirect3DBackground' is not a valid template type argument for parameter 'T'
+MC4.cpp(130): error C2133: 'direct3DBackground' : unknown size
+MC4.cpp(130): error C2512: 'Microsoft::WRL::ComPtr' : no appropriate default constructor available
+MC4.cpp(138): error C2065: 'IDrawingSurfaceBackgroundContentProvider' : undeclared identifier
+MC4.cpp(138): error C2923: 'Microsoft::WRL::ComPtr' : 'IDrawingSurfaceBackgroundContentProvider' is not a valid template type argument for parameter 'T'
+MC4.cpp(138): error C2133: 'contentProvider' : unknown size
+MC4.cpp(138): error C2512: 'Microsoft::WRL::ComPtr' : no appropriate default constructor available
+MC4.cpp(181): error C2065: 'd3dDevice' : undeclared identifier
+MC4.cpp(181): error C2227: left of '->CreateRenderTargetView' must point to class/struct/union/generic type
+          type is ''unknown-type''
+MC4.cpp(249): error C2065: 'CompositionTarget_Rendering' : undeclared identifier
+MC4.cpp(249): error C2228: left of '.Get' must have class/struct/union
+          type is ''unknown-type''
+MC4.cpp(252): error C2065: 'CompositionTarget_Rendering' : undeclared identifier
+MC4.cpp(252): error C2228: left of '.GetAddressOf' must have class/struct/union
+          type is ''unknown-type''
+MC4.cpp(293): error C2337: 'MethodImpl' : attribute not found
+MC4.cpp(293): error C2143: syntax error : missing ';' before 'public'
+MC4.cpp(293): error C2159: more than one storage class specified
+MC4.cpp(331): error C2870: 'MC4Component' : a namespace definition must appear either at file scope or immediately within another namespace definition
+MC4.cpp(332): error C2337: 'MarshalingBehavior' : attribute not found
+MC4.cpp(332): error C2065: 'MarshalingType' : undeclared identifier
+          missing quotes ("") around 'MarshalingType'?
+MC4.cpp(332): error C2228: left of '.Agile' must have class/struct/union
+          type is ''unknown-type''
+MC4.cpp(333): error C2337: 'Static' : attribute not found
+MC4.cpp(333): error C2275: '__IDirect3DBackgroundStatics' : illegal use of this type as an expression
+          MC4.cpp(37) : see declaration of '__IDirect3DBackgroundStatics'
+MC4.cpp(333): error C3861: 'typeof': identifier not found
+MC4.cpp(334): error C2337: 'Threading' : attribute not found
+MC4.cpp(334): error C2065: 'ThreadingModel' : undeclared identifier
+          missing quotes ("") around 'ThreadingModel'?
+MC4.cpp(334): error C2228: left of '.Both' must have class/struct/union
+          type is ''unknown-type''
+MC4.cpp(335): error C2337: 'Version' : attribute not found
+MC4.cpp(336): error C2337: 'WebHostHidden' : attribute not found
+MC4.cpp(337): error C2059: syntax error : 'public'
+MC4.cpp(337): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+MC4.cpp(338): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+MC4.cpp(338): error C2143: syntax error : missing ';' before '{'
+MC4.cpp(338): error C2447: '{' : missing function header (old-style formal list?)
+MC4.cpp(545): fatal error C1075: end of file found before the left brace '{' at 'MC4.cpp(136)' was matched
