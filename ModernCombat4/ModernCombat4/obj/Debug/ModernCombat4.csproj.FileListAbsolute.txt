@@ -1,0 +1,2 @@
+c:\users\atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\Debug\ModernCombat4.exe.config
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\Debug\Modern Combat 4 Zero Hour.exe.config

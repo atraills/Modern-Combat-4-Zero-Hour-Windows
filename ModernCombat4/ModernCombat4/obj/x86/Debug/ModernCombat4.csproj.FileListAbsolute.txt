@@ -1,0 +1,87 @@
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\obj\x86\Debug\ModernCombat4.csprojResolveAssemblyReference.cache
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\obj\x86\Debug\MainWindow.baml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\obj\x86\Debug\App.g.cs
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\obj\x86\Debug\Modern Combat 4 Zero Hour_Content.g.cs
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\obj\x86\Debug\Modern Combat 4 Zero Hour_MarkupCompile.cache
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\obj\x86\Debug\Modern Combat 4 Zero Hour.g.resources
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\obj\x86\Debug\ModernCombat4.Properties.Resources.resources
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\obj\x86\Debug\ModernCombat4.csproj.GenerateResource.Cache
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\Modern Combat 4 Zero Hour.exe.config
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\Modern Combat 4 Zero Hour.exe
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\Modern Combat 4 Zero Hour.pdb
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\IGPBridgeLibrary.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\IGPLib.winmd
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\MC4Component.winmd
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\MC4Interop.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.DirectSound.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.DXGI.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Toolkit.Game.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Toolkit.Graphics.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\IGPWindowsP8.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\ScheduledTask.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\PNWPhoneLib.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Toolkit.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Direct3D9.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\Microsoft.Xbox.winmd
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.xml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.DirectSound.xml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.DXGI.xml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Toolkit.Game.xml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Toolkit.Graphics.xml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\IGPLib.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Toolkit.xml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Direct3D9.xml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\Microsoft.Xbox.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\de-DE\MC4Interop.resources.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\es-ES\MC4Interop.resources.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\fr-FR\MC4Interop.resources.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\it-IT\MC4Interop.resources.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\ja-JP\MC4Interop.resources.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\ko-KR\MC4Interop.resources.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\pt-BR\MC4Interop.resources.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\ru-RU\MC4Interop.resources.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\zh-CN\MC4Interop.resources.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\obj\x86\Debug\Modern Combat 4 Zero Hour.exe
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\obj\x86\Debug\Modern Combat 4 Zero Hour.pdb
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\PushNotificationRuntime.winmd
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\Windows.Phone.Input.Interop.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\System.Windows.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\Microsoft.Phone.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\Windows.winmd
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\System.Net.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\Microsoft.Phone.Interop.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\Microsoft.Devices.Camera.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\System.Device.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\LocationService.Interop.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\Windows.Phone.Input.Interop.pdb
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\Windows.xml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\System.Runtime.Serialization.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\System.Runtime.Serialization.xml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.D3DCompiler.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Direct3D10.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Direct3D11.Effects.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.DirectInput.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Toolkit.Audio.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Toolkit.Compiler.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Toolkit.Input.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\AssimpNet.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.D3DCompiler.xml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Direct3D10.xml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Direct3D11.Effects.xml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.DirectInput.xml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Toolkit.Audio.xml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Toolkit.Compiler.xml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.Toolkit.Input.xml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\AssimpNet.xml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\PresentationFramework.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\PresentationFramework.xml
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\PresentationCore.dll
+C:\Users\Atraills\documents\visual studio 2012\Projects\ModernCombat4\ModernCombat4\bin\x86\Debug\PresentationCore.xml

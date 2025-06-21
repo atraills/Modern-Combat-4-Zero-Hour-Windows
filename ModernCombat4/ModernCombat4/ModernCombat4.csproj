@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5C5D8B0F-24D8-4B91-84C4-DAEC87641B88}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ModernCombat4</RootNamespace>
+    <AssemblyName>Modern Combat 4 Zero Hour</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>MC4\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>5</LangVersion>
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>mc4.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IGPWindowsP8">
+      <HintPath>..\..\ModernCombat4\ModernCombat4\IGPWindowsP8.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ScheduledTask">
+      <HintPath>..\..\ModernCombat4\ModernCombat4\ScheduledTask.dll</HintPath>
+    </Reference>
+    <Reference Include="PNWPhoneLib">
+      <HintPath>..\..\ModernCombat4\ModernCombat4\PNWPhoneLib.dll</HintPath>
+    </Reference>
+    <Reference Include="IGPBridgeLibrary">
+      <HintPath>..\..\ModernCombat4\ModernCombat4\IGPBridgeLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="MC4Interop">
+      <HintPath>..\..\ModernCombat4\ModernCombat4\MC4Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="MC4HybridComponent">
+      <HintPath>..\..\ModernCombat4\ModernCombat4\MC4HybridComponent.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Build" />
+    <Reference Include="Microsoft.Build.Conversion.v4.0" />
+    <Reference Include="Microsoft.Build.Engine" />
+    <Reference Include="Microsoft.Build.Framework" />
+    <Reference Include="Microsoft.Build.Tasks.v4.0" />
+    <Reference Include="Microsoft.Build.Utilities.v4.0" />
+    <Reference Include="Microsoft.Phone, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework">
+      <HintPath>..\..\MC4\MC4\Microsoft.Xna.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices">
+      <HintPath>..\XNAGAMERSERVICES\Microsoft.Xna.Framework.GamerServices.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationBuildTasks" />
+    <Reference Include="SharpDX">
+      <HintPath>..\..\Bin\DirectX11-Signed-net40\SharpDX.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.D3DCompiler, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL" />
+    <Reference Include="SharpDX.Direct2D1, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL" />
+    <Reference Include="SharpDX.Direct3D10, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL" />
+    <Reference Include="SharpDX.Direct3D11">
+      <HintPath>..\..\Bin\DirectX11-Signed-net40\SharpDX.Direct3D11.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D11.Effects, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL" />
+    <Reference Include="SharpDX.Direct3D9, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL" />
+    <Reference Include="SharpDX.DirectInput, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL" />
+    <Reference Include="SharpDX.DirectSound">
+      <HintPath>..\..\Bin\DirectX11-Signed-net40\SharpDX.DirectSound.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.DXGI">
+      <HintPath>..\..\Bin\DirectX11-Signed-net40\SharpDX.DXGI.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="SharpDX.Toolkit, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL" />
+    <Reference Include="SharpDX.Toolkit.Audio, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL" />
+    <Reference Include="SharpDX.Toolkit.Compiler, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL" />
+    <Reference Include="SharpDX.Toolkit.Game">
+      <HintPath>..\..\Bin\DirectX11-Signed-net40\SharpDX.Toolkit.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Toolkit.Graphics, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bin\DirectX11-Signed-net40\SharpDX.Toolkit.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="MC4Component">
+      <HintPath>..\..\ModernCombat4\ModernCombat4\MC4Component.winmd</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="PushNotificationRuntime">
+      <HintPath>..\..\ModernCombat4\ModernCombat4\PushNotificationRuntime.winmd"</HintPath>
+    </Reference>
+    <Reference Include="IGPLib">
+      <HintPath>..\..\ModernCombat4\ModernCombat4\IGPLib.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows">
+      <HintPath>..\..\WinP\Windows.winmd</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Toolkit.Input, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL" />
+    <Reference Include="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Activities.Core.Presentation" />
+    <Reference Include="System.Activities.Presentation" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Windows.Forms.DataVisualization.Design" />
+    <Reference Include="System.Windows.Input.Manipulations" />
+    <Reference Include="System.Windows.Presentation" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="Windows.Phone.Input.Interop">
+      <HintPath>..\..\WinPhoneInputInteropDebugRelease\Windows.Phone.Input.Interop.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="XamlBuildTask" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="d3dInstance.cs" />
+    <Compile Include="DesktopManipulationHost.cs" />
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="compTarget.cs" />
+    <Compile Include="HZ.cs" />
+    <Compile Include="SwapChain.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Resource Include="GLLogo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="System.Windows.dll" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Content Include="data\1025578258.sobfs" />
+    <Content Include="data\1033965491.sobfs" />
+    <Content Include="data\1053758619.sobfs" />
+    <Content Include="data\1054086300.sobfs" />
+    <Content Include="data\1054413981.sobfs" />
+    <Content Include="data\1054741662.sobfs" />
+    <Content Include="data\1055069343.sobfs" />
+    <Content Include="data\1055397024.sobfs" />
+    <Content Include="data\1055724705.sobfs" />
+    <Content Include="data\1056052386.sobfs" />
+    <Content Include="data\107023723.sobfs" />
+    <Content Include="data\1071714003.sobfs" />
+    <Content Include="data\1074597591.sobfs" />
+    <Content Include="data\1078333207.sobfs" />
+    <Content Include="data\108334445.sobfs" />
+    <Content Include="data\1090520813.obfs" />
+    <Content Include="data\109645167.sobfs" />
+    <Content Include="data\1136333892.sobfs" />
+    <Content Include="data\122228091.sobfs" />
+    <Content Include="data\1244137339.sobfs" />
+    <Content Include="data\1269698542.sobfs" />
+    <Content Include="data\1312559143.sobfs" />
+    <Content Include="data\1325930734.sobfs" />
+    <Content Include="data\1327372527.sobfs" />
+    <Content Include="data\1329336136.sobfs" />
+    <Content Include="data\1330909002.sobfs" />
+    <Content Include="data\1332481868.sobfs" />
+    <Content Include="data\1359614032.sobfs" />
+    <Content Include="data\1377243165.sobfs" />
+    <Content Include="data\1408767233.sobfs" />
+    <Content Include="data\142612512.sobfs" />
+    <Content Include="data\1519325168.sobfs" />
+    <Content Include="data\1520766962.sobfs" />
+    <Content Include="data\1554649099.sobfs" />
+    <Content Include="data\1562054754.sobfs" />
+    <Content Include="data\1563168791.sobfs" />
+    <Content Include="data\1592985585.sobfs" />
+    <Content Include="data\1605573070.sobfs" />
+    <Content Include="data\1623461983.sobfs" />
+    <Content Include="data\1651771500.sobfs" />
+    <Content Include="data\1666651460.sobfs" />
+    <Content Include="data\1668552006.sobfs" />
+    <Content Include="data\1670452552.sobfs" />
+    <Content Include="data\1751913756.sobfs" />
+    <Content Include="data\1753486622.sobfs" />
+    <Content Include="data\1755059488.sobfs" />
+    <Content Include="data\1756632354.sobfs" />
+    <Content Include="data\1758205220.sobfs" />
+    <Content Include="data\1759778086.sobfs" />
+    <Content Include="data\1761350952.sobfs" />
+    <Content Include="data\1762923818.sobfs" />
+    <Content Include="data\1782388186.sobfs" />
+    <Content Include="data\1845168236.sobfs" />
+    <Content Include="data\1847527646.sobfs" />
+    <Content Include="data\1853101586.sobfs" />
+    <Content Include="data\1979451747.sobfs" />
+    <Content Include="data\2003833010.sobfs" />
+    <Content Include="data\2099777810.sobfs" />
+    <Content Include="data\2106464768.sobfs" />
+    <Content Include="data\2127697417.sobfs" />
+    <Content Include="data\2133266663.sobfs" />
+    <Content Include="data\2160464148.sobfs" />
+    <Content Include="data\2168721673.sobfs" />
+    <Content Include="data\2191593468.sobfs" />
+    <Content Include="data\2192838654.sobfs" />
+    <Content Include="data\2284785744.sobfs" />
+    <Content Include="data\2288257537.sobfs" />
+    <Content Include="data\2301038688.sobfs" />
+    <Content Include="data\2317748787.sobfs" />
+    <Content Include="data\2338589255.sobfs" />
+    <Content Include="data\238030357.sobfs" />
+    <Content Include="data\2401833299.sobfs" />
+    <Content Include="data\242096106.sobfs" />
+    <Content Include="data\242423787.sobfs" />
+    <Content Include="data\2433616199.sobfs" />
+    <Content Include="data\2434599241.sobfs" />
+    <Content Include="data\2435582283.sobfs" />
+    <Content Include="data\2436565325.sobfs" />
+    <Content Include="data\2437548367.sobfs" />
+    <Content Include="data\2444691797.sobfs" />
+    <Content Include="data\2445674839.sobfs" />
+    <Content Include="data\2446657881.sobfs" />
+    <Content Include="data\2449672767.sobfs" />
+    <Content Include="data\2458388843.sobfs" />
+    <Content Include="data\2459371885.sobfs" />
+    <Content Include="data\2483492372.sobfs" />
+    <Content Include="data\2483820053.sobfs" />
+    <Content Include="data\2484147734.sobfs" />
+    <Content Include="data\2502956658.sobfs" />
+    <Content Include="data\251137640.sobfs" />
+    <Content Include="data\2539197999.sobfs" />
+    <Content Include="data\2540376525.sobfs" />
+    <Content Include="data\2592216738.sobfs" />
+    <Content Include="data\261365580.sobfs" />
+    <Content Include="data\261492294.sobfs" />
+    <Content Include="data\26152486.sobfs" />
+    <Content Include="data\261693261.sobfs" />
+    <Content Include="data\262020942.sobfs" />
+    <Content Include="data\262348623.sobfs" />
+    <Content Include="data\2625442215.sobfs" />
+    <Content Include="data\262676304.sobfs" />
+    <Content Include="data\263003985.sobfs" />
+    <Content Include="data\2630814400.sobfs" />
+    <Content Include="data\2701398472.sobfs" />
+    <Content Include="data\2767393284.sobfs" />
+    <Content Include="data\2777420281.sobfs" />
+    <Content Include="data\2778401263.sobfs" />
+    <Content Include="data\2778991392.sobfs" />
+    <Content Include="data\2779449841.sobfs" />
+    <Content Include="data\2781153779.sobfs" />
+    <Content Include="data\2782202357.sobfs" />
+    <Content Include="data\2783644153.sobfs" />
+    <Content Include="data\2784692731.sobfs" />
+    <Content Include="data\2785741309.sobfs" />
+    <Content Include="data\2791181022.sobfs" />
+    <Content Include="data\279189689.sobfs" />
+    <Content Include="data\2839219000.sobfs" />
+    <Content Include="data\2863469130.sobfs" />
+    <Content Include="data\286920271.sobfs" />
+    <Content Include="data\2892307110.sobfs" />
+    <Content Include="data\2896499022.sobfs" />
+    <Content Include="data\2897809744.sobfs" />
+    <Content Include="data\2932738866.sobfs" />
+    <Content Include="data\2956923174.sobfs" />
+    <Content Include="data\2958561576.sobfs" />
+    <Content Include="data\297933001.sobfs" />
+    <Content Include="data\3020889851.sobfs" />
+    <Content Include="data\3032424201.sobfs" />
+    <Content Include="data\3034255856.sobfs" />
+    <Content Include="data\3034321392.sobfs" />
+    <Content Include="data\3034583537.sobfs" />
+    <Content Include="data\3034649073.sobfs" />
+    <Content Include="data\3034911218.sobfs" />
+    <Content Include="data\3035238899.sobfs" />
+    <Content Include="data\3035566580.sobfs" />
+    <Content Include="data\3035894261.sobfs" />
+    <Content Include="data\3036221942.sobfs" />
+    <Content Include="data\3036549623.sobfs" />
+    <Content Include="data\3036877304.sobfs" />
+    <Content Include="data\30871088.sobfs" />
+    <Content Include="data\3179940845.sobfs" />
+    <Content Include="data\3193244667.sobfs" />
+    <Content Include="data\3231845200.sobfs" />
+    <Content Include="data\3233090386.sobfs" />
+    <Content Include="data\3234335572.sobfs" />
+    <Content Include="data\3246590826.sobfs" />
+    <Content Include="data\3276868506.sobfs" />
+    <Content Include="data\3292533376.sobfs" />
+    <Content Include="data\3375106891.sobfs" />
+    <Content Include="data\3376286541.sobfs" />
+    <Content Include="data\3377466191.sobfs" />
+    <Content Include="data\3378645841.sobfs" />
+    <Content Include="data\338498576.sobfs" />
+    <Content Include="data\339611102.sobfs" />
+    <Content Include="data\341052896.sobfs" />
+    <Content Include="data\342494690.sobfs" />
+    <Content Include="data\343936484.sobfs" />
+    <Content Include="data\3444051050.sobfs" />
+    <Content Include="data\3466007290.sobfs" />
+    <Content Include="data\348001348.sobfs" />
+    <Content Include="data\3485076425.sobfs" />
+    <Content Include="data\348591172.sobfs" />
+    <Content Include="data\3494710360.sobfs" />
+    <Content Include="data\349970500.sobfs" />
+    <Content Include="data\3530560030.sobfs" />
+    <Content Include="data\3531936288.sobfs" />
+    <Content Include="data\3532069546.sobfs" />
+    <Content Include="data\3540651011.sobfs" />
+    <Content Include="data\354094745.obfs" />
+    <Content Include="data\355864046.sobfs" />
+    <Content Include="data\357305840.sobfs" />
+    <Content Include="data\3573484480.sobfs" />
+    <Content Include="data\3574795202.sobfs" />
+    <Content Include="data\3576105924.sobfs" />
+    <Content Include="data\3577416646.sobfs" />
+    <Content Include="data\358747634.sobfs" />
+    <Content Include="data\3619753182.sobfs" />
+    <Content Include="data\3621326046.sobfs" />
+    <Content Include="data\3624275085.sobfs" />
+    <Content Include="data\3629124769.sobfs" />
+    <Content Include="data\3629518052.sobfs" />
+    <Content Include="data\3656453142.sobfs" />
+    <Content Include="data\3690400828.sobfs" />
+    <Content Include="data\3691711550.sobfs" />
+    <Content Include="data\3695579906.sobfs" />
+    <Content Include="data\3745844336.sobfs" />
+    <Content Include="data\3747155058.sobfs" />
+    <Content Include="data\3748465780.sobfs" />
+    <Content Include="data\3749057347.sobfs" />
+    <Content Include="data\3749776502.sobfs" />
+    <Content Include="data\3751087224.sobfs" />
+    <Content Include="data\3752397946.sobfs" />
+    <Content Include="data\3753708668.sobfs" />
+    <Content Include="data\3755019390.sobfs" />
+    <Content Include="data\3844279607.sobfs" />
+    <Content Include="data\3873901659.sobfs" />
+    <Content Include="data\3875146845.sobfs" />
+    <Content Include="data\3890089081.sobfs" />
+    <Content Include="data\3891334267.sobfs" />
+    <Content Include="data\3892579453.sobfs" />
+    <Content Include="data\3927448375.sobfs" />
+    <Content Include="data\393221110.sobfs" />
+    <Content Include="data\3933670563.sobfs" />
+    <Content Include="data\3934915749.sobfs" />
+    <Content Include="data\3971027762.sobfs" />
+    <Content Include="data\3972731700.sobfs" />
+    <Content Include="data\3974435638.sobfs" />
+    <Content Include="data\3976139576.sobfs" />
+    <Content Include="data\3977843514.sobfs" />
+    <Content Include="data\3979547452.sobfs" />
+    <None Include="data\3d\characters\TP\animations\tp_transitions.trans" />
+    <Content Include="data\4002944901.sobfs" />
+    <Content Include="data\4009233721.sobfs" />
+    <Content Include="data\4048489827.sobfs" />
+    <Content Include="data\4076146011.sobfs" />
+    <Content Include="data\4077196218.sobfs" />
+    <Content Include="data\4078505406.sobfs" />
+    <Content Include="data\4088139211.sobfs" />
+    <Content Include="data\4090105040.sobfs" />
+    <Content Include="data\4091420625.sobfs" />
+    <Content Include="data\4091481298.sobfs" />
+    <Content Include="data\4108258542.sobfs" />
+    <Content Include="data\4109634800.sobfs" />
+    <Content Include="data\4111011058.sobfs" />
+    <Content Include="data\4119468205.sobfs" />
+    <Content Include="data\4130016671.sobfs" />
+    <Content Include="data\4138210063.sobfs" />
+    <Content Include="data\4139715854.sobfs" />
+    <Content Include="data\4154592536.sobfs" />
+    <Content Include="data\4155968794.sobfs" />
+    <Content Include="data\4235529634.sobfs" />
+    <Content Include="data\4239986094.sobfs" />
+    <Content Include="data\4253683124.sobfs" />
+    <Content Include="data\4278391562.sobfs" />
+    <Content Include="data\4280161036.sobfs" />
+    <Content Include="data\4281930510.sobfs" />
+    <Content Include="data\4285009316.sobfs" />
+    <Content Include="data\431428448.sobfs" />
+    <Content Include="data\431756129.sobfs" />
+    <Content Include="data\432083810.sobfs" />
+    <Content Include="data\432411491.sobfs" />
+    <Content Include="data\441585282.sobfs" />
+    <Content Include="data\444274645.sobfs" />
+    <Content Include="data\480647423.sobfs" />
+    <Content Include="data\492637901.sobfs" />
+    <Content Include="data\525471223.sobfs" />
+    <Content Include="data\526847481.sobfs" />
+    <Content Include="data\54663078.sobfs" />
+    <Content Include="data\55908263.sobfs" />
+    <Content Include="data\594024797.sobfs" />
+    <Content Include="data\615322607.sobfs" />
+    <Content Include="data\615650288.sobfs" />
+    <Content Include="data\615977969.sobfs" />
+    <Content Include="data\643237184.obfs" />
+    <Content Include="data\667164759.sobfs" />
+    <Content Include="data\685645029.sobfs" />
+    <Content Include="data\693968997.sobfs" />
+    <Content Include="data\715201779.sobfs" />
+    <Content Include="data\732958467.sobfs" />
+    <Content Include="data\757864748.sobfs" />
+    <Content Include="data\766578501.sobfs" />
+    <Content Include="data\768675436.sobfs" />
+    <Content Include="data\770182766.sobfs" />
+    <Content Include="data\770510667.sobfs" />
+    <Content Include="data\773197652.sobfs" />
+    <Content Include="data\776541278.sobfs" />
+    <Content Include="data\916197170.sobfs" />
+    <Content Include="data\980032874.sobfs" />
+    <Content Include="data\980753766.sobfs" />
+    <Content Include="data\987762554.sobfs" />
+    <Content Include="data\993726328.sobfs" />
+    <None Include="data\audio\reverb.fxb" />
+    <None Include="data\briefing\briefing1_brazilian.srt" />
+    <None Include="data\briefing\briefing1_chinese.srt" />
+    <None Include="data\briefing\briefing1_English.srt" />
+    <None Include="data\briefing\briefing1_french.srt" />
+    <None Include="data\briefing\briefing1_german.srt" />
+    <None Include="data\briefing\briefing1_italian.srt" />
+    <None Include="data\briefing\briefing1_japanese.srt" />
+    <None Include="data\briefing\briefing1_korean.srt" />
+    <None Include="data\briefing\briefing1_russian.srt" />
+    <None Include="data\briefing\briefing1_spanish.srt" />
+    <None Include="data\briefing\briefing2_brazilian.srt" />
+    <None Include="data\briefing\briefing2_chinese.srt" />
+    <None Include="data\briefing\briefing2_English.srt" />
+    <None Include="data\briefing\briefing2_french.srt" />
+    <None Include="data\briefing\briefing2_german.srt" />
+    <None Include="data\briefing\briefing2_italian.srt" />
+    <None Include="data\briefing\briefing2_japanese.srt" />
+    <None Include="data\briefing\briefing2_korean.srt" />
+    <None Include="data\briefing\briefing2_russian.srt" />
+    <None Include="data\briefing\briefing2_spanish.srt" />
+    <None Include="data\briefing\briefing3_brazilian.srt" />
+    <None Include="data\briefing\briefing3_chinese.srt" />
+    <None Include="data\briefing\briefing3_English.srt" />
+    <None Include="data\briefing\briefing3_french.srt" />
+    <None Include="data\briefing\briefing3_german.srt" />
+    <None Include="data\briefing\briefing3_italian.srt" />
+    <None Include="data\briefing\briefing3_japanese.srt" />
+    <None Include="data\briefing\briefing3_korean.srt" />
+    <None Include="data\briefing\briefing3_russian.srt" />
+    <None Include="data\briefing\briefing3_spanish.srt" />
+    <None Include="data\briefing\briefing4_brazilian.srt" />
+    <None Include="data\briefing\briefing4_chinese.srt" />
+    <None Include="data\briefing\briefing4_English.srt" />
+    <None Include="data\briefing\briefing4_french.srt" />
+    <None Include="data\briefing\briefing4_german.srt" />
+    <None Include="data\briefing\briefing4_italian.srt" />
+    <None Include="data\briefing\briefing4_japanese.srt" />
+    <None Include="data\briefing\briefing4_korean.srt" />
+    <None Include="data\briefing\briefing4_russian.srt" />
+    <None Include="data\briefing\briefing4_spanish.srt" />
+    <None Include="data\briefing\briefing5_brazilian.srt" />
+    <None Include="data\briefing\briefing5_chinese.srt" />
+    <None Include="data\briefing\briefing5_English.srt" />
+    <None Include="data\briefing\briefing5_french.srt" />
+    <None Include="data\briefing\briefing5_german.srt" />
+    <None Include="data\briefing\briefing5_italian.srt" />
+    <None Include="data\briefing\briefing5_japanese.srt" />
+    <None Include="data\briefing\briefing5_korean.srt" />
+    <None Include="data\briefing\briefing5_russian.srt" />
+    <None Include="data\briefing\briefing5_spanish.srt" />
+    <Content Include="data\DATA_1.dat" />
+    <Content Include="data\DATA_2.dat" />
+    <Content Include="data\DATA_3.dat" />
+    <Content Include="data\DATA_4.dat" />
+    <None Include="data\texts\text.BR.lang" />
+    <None Include="data\texts\text.CN.lang" />
+    <None Include="data\texts\text.DE.lang" />
+    <None Include="data\texts\text.EN.lang" />
+    <None Include="data\texts\text.FR.lang" />
+    <None Include="data\texts\text.IT.lang" />
+    <None Include="data\texts\text.JP.lang" />
+    <None Include="data\texts\text.KO.lang" />
+    <None Include="data\texts\text.RU.lang" />
+    <None Include="data\texts\text.SP.lang" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Resource Include="Shaders.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Shaders_HD.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="mc4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="data\audio\VOX_SDD_MC4.xml" />
+    <Content Include="data\briefing\briefing1.mp4" />
+    <Content Include="data\briefing\briefing2.mp4" />
+    <Content Include="data\briefing\briefing3.mp4" />
+    <Content Include="data\briefing\briefing4.mp4" />
+    <Content Include="data\briefing\briefing5.mp4" />
+    <Resource Include="data\materials\EffectLibraryConfig.xml" />
+    <Resource Include="data\materials\MaxGlitchConfig.xml" />
+    <Resource Include="data\materials\TechniqueMaps.xml" />
+    <Resource Include="data\tracking\eventParameters.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MC4SystemWindows">
+      <HintPath>..\..\ModernCombat4\System.Windows.dll</HintPath>
+      <Aliases>MC4SystemWindows</Aliases>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
